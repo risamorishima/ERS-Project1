@@ -30,6 +30,13 @@ public class DBConnection {
 		final String URL = p.getProperty("url");
 		final String USERNAME = p.getProperty("username");
 		final String PASSWORD = p.getProperty("password");
-		return DriverManager.getConnection(URL, USERNAME, PASSWORD);
+		try {
+            Class.forName("org.postgresql.Driver");
+    		return DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        } catch(ClassNotFoundException e) {
+            log.error("Unable to connect to database");
+            e.printStackTrace();
+        }
+		return null;
 	}
 }

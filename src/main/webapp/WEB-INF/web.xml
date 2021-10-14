@@ -4,4 +4,22 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+  
+    <servlet>
+		<servlet-name>ViewServlet</servlet-name>
+		<servlet-class>com.ers.servlet.ViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewServlet</servlet-name>
+		<url-pattern>*.view</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>JSONServlet</servlet-name>
+		<servlet-class>com.ers.servlet.JSONServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JSONServlet</servlet-name>
+		<url-pattern>*.json</url-pattern>
+	</servlet-mapping>
 </web-app>
