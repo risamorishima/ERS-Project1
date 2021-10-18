@@ -6,7 +6,6 @@ public class Reimbursement {
 	private int id;
 	private float amount;
 	private String description;
-	private byte[] receipt; 
 	private Date submitDate;
 	private Date resolvedDate;
 	private int authorId;
@@ -20,13 +19,23 @@ public class Reimbursement {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Reimbursement(int id, float amount, String description, byte[] receipt, Date submitDate, Date resolvedDate, int authorId,
+	public Reimbursement(float amount, String description, Date submitDate, int authorId, ReimbursementStatus status,
+			ReimbursementType type) {
+		super();
+		this.amount = amount;
+		this.description = description;
+		this.submitDate = submitDate;
+		this.authorId = authorId;
+		this.status = status;
+		this.type = type;
+	}
+
+	public Reimbursement(int id, float amount, String description, Date submitDate, Date resolvedDate, int authorId,
 			int resolverId, ReimbursementStatus status, ReimbursementType type) {
 		super();
 		this.id = id;
 		this.amount = amount;
 		this.description = description;
-		this.receipt = receipt;
 		this.submitDate = submitDate;
 		this.resolvedDate = resolvedDate;
 		this.authorId = authorId;
@@ -51,14 +60,6 @@ public class Reimbursement {
 		this.description = description;
 	}
 
-	public byte[] getReceipt() {
-		return receipt;
-	}
-
-	public void setReceipt(byte[] receipt) {
-		this.receipt = receipt;
-	}
-
 	public Date getSubmitDate() {
 		return submitDate;
 	}
@@ -81,6 +82,10 @@ public class Reimbursement {
 
 	public int getResolverId() {
 		return resolverId;
+	}
+
+	public void setResolverId(int resolverId) {
+		this.resolverId = resolverId;
 	}
 
 	public ReimbursementStatus getStatus() {

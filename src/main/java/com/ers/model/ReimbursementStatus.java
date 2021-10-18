@@ -3,11 +3,6 @@ package com.ers.model;
 public class ReimbursementStatus {
 	private int id;
 	private String status;
-	
-	public ReimbursementStatus() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 
 	public ReimbursementStatus(int id, String status) {
 		super();

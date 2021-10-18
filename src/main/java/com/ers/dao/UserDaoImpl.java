@@ -8,12 +8,13 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ers.AES;
 import com.ers.model.User;
 import com.ers.model.UserRole;
 
 public class UserDaoImpl implements UserDao{
 	private DBConnection dbCon;
-	
+	AES aes = new AES();
 	public UserDaoImpl(DBConnection dbCon) {
 		super();
 		this.dbCon = dbCon;

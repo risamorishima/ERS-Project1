@@ -1,0 +1,14 @@
+2021-10-18 19:21:42 INFO  JSONDispatcher:44 - login unsuccessful: user session info response sent
+2021-10-18 19:21:49 INFO  JSONDispatcher:44 - login unsuccessful: user session info response sent
+2021-10-18 19:21:53 INFO  AES:50 - decryption occured
+2021-10-18 19:21:53 INFO  UserController:50 - employee 1 logged in
+2021-10-18 19:21:53 INFO  UserController:86 - user session requested
+2021-10-18 19:21:53 INFO  ReimbursementController:147 - ticket session requested
+2021-10-18 19:21:53 INFO  JSONDispatcher:34 - login successful: user session info response sent
+2021-10-18 19:22:08 INFO  UserController:86 - user session requested
+2021-10-18 19:22:09 INFO  ReimbursementController:147 - ticket session requested
+2021-10-18 19:22:09 INFO  JSONDispatcher:34 - login successful: user session info response sent
+2021-10-18 19:22:09 INFO  ReimbursementController:53 - employee 1 submitted ticket
+2021-10-18 19:22:09 INFO  UserController:86 - user session requested
+2021-10-18 19:22:10 INFO  ReimbursementController:147 - ticket session requested
+2021-10-18 19:22:10 INFO  JSONDispatcher:34 - login successful: user session info response sent

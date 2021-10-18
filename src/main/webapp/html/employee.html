@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Employee Home</title>
 </head>
@@ -17,34 +18,130 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Account</a>
+              <a class="nav-link" data-toggle="modal" data-target="#accountModal">Account</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Start Ticket</a>
+              <a class="nav-link" data-toggle="modal" data-target="#ticketModal">Start Ticket</a>
             </li>
           </ul>
-          <form method="post" action="/proj1/logout.json" id="logout" class="form-inline my-2 my-lg-0">
+          <form method="post" action="/proj1/logout.view" id="logout" class="form-inline my-2 my-lg-0">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
           </form>
         </div>
     </nav>
 
-
-    <div id = "welcomeHeading"></div>
-    <div>Past Tickets:</div>
-
-
-    <div class="modal hide fade" id="exampleModal" data-keyboard="false" data-backdrop="static">
+    <div class="modal fade" id="accountModal" tabindex="-1" role="dialog" aria-labelledby="accountModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Restricted</h5>
+            <h5 class="modal-title" id="accountModalLabel">Account</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="name"></div>
+            <div id="username">Username: </div>
+            <div>
+              Password: 
+              <img src="img/password.png" id="showPassword" alt="show password"/>
+              <span id="password" display="none"></span>
+            </div>
+            <div id="email">Email: </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="ticketModal" tabindex="-1" role="dialog" aria-labelledby="ticketModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ticketModalLabel">New Ticket</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" action="/proj1/ticket.view">
+              <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" maxlength=250 class="form-control" id="description" name="description" placeholder="Enter description" required>
+              </div>
+              <div class="form-group">
+                <label for="type">Ticket Type</label>
+                <select class="form-control" id="type" name="type" required>
+                  <option>Lodging</option>
+                  <option>Travel</option>
+                  <option>Food</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" step=0.01 min=0.01 class="form-control" id="amount" name="amount" placeholder="Amount" required>
+              </div>
+              <button type="submit" id="ticketSubmit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id = "welcomeHeading"></div>
+    <div id = "pastTickets">
+      Past Tickets:
+    </div>
+
+    <div class="modal fade" id="updateTicketModal" tabindex="-1" role="dialog" aria-labelledby="updateTicketModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="updateTicketModalLabel">Update Ticket</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" action="/proj1/updateTicket.view" enctype="multipart/form-data">
+              <div class="form-group">
+                <input type="hidden" id="ticketId" name="id">
+                <label for="description">Description</label>
+                <input type="text" maxlength=250 class="form-control" id="updateDescription" name="description" placeholder="Enter description">
+              </div>
+              <div class="form-group">
+                <label for="type">Ticket Type</label>
+                <select class="form-control" id="updateType" name="type">
+                  <option></option>
+                  <option>Lodging</option>
+                  <option>Travel</option>
+                  <option>Food</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" step=0.01 min=0.01 class="form-control" id="updateAmount" name="amount" placeholder="Amount">
+              </div>
+              <button type="submit" id="ticketSubmit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hide fade" id="validateModal" data-keyboard="false" data-backdrop="static">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Restricted Access</h5>
             </div>
             <div class="modal-body">
               Please log back in.
             </div>
             <div class="modal-footer">
-              <button type="button" id="modalButton" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" id="validateButton" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>

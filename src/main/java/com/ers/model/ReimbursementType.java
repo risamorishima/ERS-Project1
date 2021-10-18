@@ -3,11 +3,6 @@ package com.ers.model;
 public class ReimbursementType {
 	private int id;
 	private String type;
-	
-	public ReimbursementType() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 
 	public ReimbursementType(int id, String type) {
 		super();

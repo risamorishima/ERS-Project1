@@ -1,29 +1,18 @@
-window.onload = function(){
-    getSessionUser();
-}
-
-function getSessionUser(){
-    let xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function(){
-        if(xhttp.readyState == 4 && xhttp.status == 200){
-            if(!xhttp.responseText){
-                $('#exampleModal').modal('show');
-            }else{
-                let user = JSON.parse(xhttp.responseText);
-                console.log(user);
-                document.getElementById("welcomeHeading").innerHTML=`Welcome ${user.firstName} ${user.lastName}`;
-            }
-            
-        }
-    }
-
-    xhttp.open("GET", "http://localhost:8080/proj1/getsessionuser.json");
-    xhttp.send();
-}
-
-let modalButton = document.getElementById("modalButton");
-modalButton.addEventListener("click", toIndex);
+let validateButton = document.getElementById("validateButton");
+validateButton.addEventListener("click", toIndex);
 
 function toIndex(){
     location.href = 'http://localhost:8080/proj1/html/index.html';
+}
+
+let password = document.getElementById("showPassword");
+password.addEventListener("click", showPassword);
+
+function showPassword() {
+    var pw = document.getElementById("password");
+    if (pw.style.display === "none") {
+        pw.style.display = "inline";
+    } else {
+        pw.style.display = "none";
+    }
 }
