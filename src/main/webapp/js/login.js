@@ -1,6 +1,18 @@
 window.onload = function(){
     checkSession();
+    imageLoad();
 }
+
+function imageLoad(){
+    let images = document.querySelectorAll('img');
+    images.forEach(function(image){
+        let isLoaded = image.complete && image.naturalWidth !== 0;
+        if(!isLoaded){
+            image.setAttribute('src', `img/${image.getAttribute('alt')}`);
+        }
+    });
+}
+
 function checkSession(){
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
@@ -28,5 +40,7 @@ function checkSession(){
     xhttp.open("GET", "http://localhost:8080/proj1/wrongcreds.json");
     xhttp.send();
 }
-
 $('.alert').alert()
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })

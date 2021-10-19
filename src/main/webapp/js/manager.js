@@ -53,8 +53,12 @@ function getSessionUser(){
                         denyButton.appendChild(denyText);
                         decisionForm.appendChild(denyButton);
                         newTicketDiv.appendChild(decisionForm);
+                        document.getElementById("pendingTickets").append(newTicketDiv);
+                    }else if(ticket.status.status === "Approved"){
+                        document.getElementById("approvedTickets").append(newTicketDiv);
+                    }else{
+                        document.getElementById("deniedTickets").append(newTicketDiv);
                     }
-                    document.getElementById("pastTickets").append(newTicketDiv);
                 }
 
             }

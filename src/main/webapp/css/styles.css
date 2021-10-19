@@ -1,7 +1,25 @@
-#showPassword {
-    width: 5%;
-}
 #alertDiv {
     margin: 0 auto 1%;
     width: 45vw;
+}
+#logo{
+    width: 20%;
+    height: auto;
+}
+#login-col{
+    padding: 10% 0;
+}
+#tooltip{
+    width: 48%;
+}
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+#showPassword {
+    width: 5%;
 }

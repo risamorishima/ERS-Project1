@@ -12,3 +12,197 @@
 2021-10-18 19:22:09 INFO  UserController:86 - user session requested
 2021-10-18 19:22:10 INFO  ReimbursementController:147 - ticket session requested
 2021-10-18 19:22:10 INFO  JSONDispatcher:34 - login successful: user session info response sent
+2021-10-18 19:33:24 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-18 19:33:28 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-18 19:33:32 INFO  AES:50 - decryption occured
+2021-10-18 19:33:32 INFO  UserController:50 - employee 1 logged in
+2021-10-18 19:33:32 INFO  UserController:86 - user session requested
+2021-10-18 19:33:33 INFO  ReimbursementController:147 - ticket session requested
+2021-10-18 19:33:33 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-18 19:35:21 INFO  AES:50 - decryption occured
+2021-10-18 19:35:21 INFO  UserController:86 - user session requested
+2021-10-18 19:35:22 INFO  ReimbursementController:147 - ticket session requested
+2021-10-18 19:35:22 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-18 19:35:32 INFO  UserController:77 - session invalidated
+2021-10-18 19:35:32 INFO  UserController:79 - logged out
+2021-10-18 19:35:32 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-18 19:35:36 INFO  AES:50 - decryption occured
+2021-10-18 19:35:36 INFO  UserController:53 - manager 3 logged in
+2021-10-18 19:35:36 INFO  UserController:86 - user session requested
+2021-10-18 19:35:36 INFO  AES:50 - decryption occured
+2021-10-18 19:35:36 INFO  AES:50 - decryption occured
+2021-10-18 19:35:37 INFO  ReimbursementController:147 - ticket session requested
+2021-10-18 19:35:37 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-18 19:35:47 INFO  ReimbursementController:123 - manager 3 submitted ticket
+2021-10-18 19:35:47 INFO  UserController:86 - user session requested
+2021-10-18 19:35:47 INFO  AES:50 - decryption occured
+2021-10-18 19:35:47 INFO  AES:50 - decryption occured
+2021-10-18 19:35:48 INFO  ReimbursementController:147 - ticket session requested
+2021-10-18 19:35:48 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-18 19:35:53 INFO  UserController:77 - session invalidated
+2021-10-18 19:35:53 INFO  UserController:79 - logged out
+2021-10-18 19:35:53 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-18 19:35:57 INFO  AES:50 - decryption occured
+2021-10-18 19:35:57 INFO  UserController:50 - employee 1 logged in
+2021-10-18 19:35:57 INFO  UserController:86 - user session requested
+2021-10-18 19:35:57 INFO  ReimbursementController:147 - ticket session requested
+2021-10-18 19:35:57 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-19 16:55:17 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:55:20 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:55:34 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:55:48 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:55:59 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:56:00 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:56:13 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:56:27 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:56:33 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:56:34 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:56:42 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:56:44 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:57:22 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:57:38 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:57:39 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:59:15 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:59:48 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 16:59:50 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:08:07 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:08:20 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:08:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:08:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:08:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:08:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:08:22 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:09:05 INFO  AES:50 - decryption occured
+2021-10-19 17:09:05 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:09:05 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:09:13 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:09:20 INFO  AES:50 - decryption occured
+2021-10-19 17:09:20 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:09:20 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:09:48 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:09:51 INFO  AES:50 - decryption occured
+2021-10-19 17:09:51 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:09:51 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:10:01 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:10:03 INFO  AES:50 - decryption occured
+2021-10-19 17:10:03 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:10:03 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:10:25 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:10:28 INFO  AES:50 - decryption occured
+2021-10-19 17:10:28 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:10:28 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:10:30 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:10:49 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:10:55 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:15:56 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:16:07 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:16:19 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:17:04 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:17:07 INFO  AES:50 - decryption occured
+2021-10-19 17:17:07 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:17:07 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:17:35 INFO  AES:50 - decryption occured
+2021-10-19 17:17:35 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:18:04 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:18:07 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:18:10 INFO  AES:50 - decryption occured
+2021-10-19 17:18:10 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:18:10 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:18:42 INFO  AES:50 - decryption occured
+2021-10-19 17:18:42 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 17:18:42 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:23:44 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:24:11 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:24:12 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:25:13 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:25:15 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:25:15 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:25:16 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:25:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:25:25 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:25:26 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:26:15 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:27:08 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:28:19 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:28:34 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:28:37 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:28:54 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:29:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:29:37 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:29:38 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:30:22 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:30:34 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:30:43 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:30:45 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:30:52 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:31:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:31:36 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:31:59 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:32:55 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:33:08 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:33:38 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:33:49 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:47:32 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:47:39 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:47:59 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:48:02 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:48:03 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:50:41 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:50:47 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:50:56 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:51:01 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:53:05 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:53:44 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:53:51 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:54:23 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:54:32 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:54:48 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:54:51 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:55:25 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:57:03 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:57:10 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:57:17 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:57:24 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:57:27 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:58:02 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 17:58:40 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:00:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:00:33 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:02:25 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:02:32 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:02:33 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:02:34 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:02:48 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:03:21 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:03:32 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:03:33 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:03:41 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:04:02 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:04:05 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:04:09 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:04:13 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 18:05:38 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 19:05:18 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 19:05:30 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 19:05:36 INFO  AES:50 - decryption occured
+2021-10-19 19:05:36 INFO  UserController:50 - employee 1 logged in
+2021-10-19 19:05:36 INFO  UserController:86 - user session requested
+2021-10-19 19:05:36 INFO  ReimbursementController:147 - ticket session requested
+2021-10-19 19:05:36 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-19 19:05:41 INFO  UserController:77 - session invalidated
+2021-10-19 19:05:41 INFO  UserController:79 - logged out
+2021-10-19 19:05:41 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 19:05:47 INFO  AES:50 - decryption occured
+2021-10-19 19:05:47 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 19:05:47 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 19:06:30 INFO  AES:50 - decryption occured
+2021-10-19 19:06:30 INFO  UserController:50 - employee 1 logged in
+2021-10-19 19:06:30 INFO  UserController:86 - user session requested
+2021-10-19 19:06:30 INFO  ReimbursementController:147 - ticket session requested
+2021-10-19 19:06:30 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-19 19:06:32 INFO  UserController:77 - session invalidated
+2021-10-19 19:06:32 INFO  UserController:79 - logged out
+2021-10-19 19:06:32 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
+2021-10-19 19:06:37 INFO  AES:50 - decryption occured
+2021-10-19 19:06:37 ERROR UserController:56 - wrong credentials inputted
+2021-10-19 19:06:37 INFO  JSONDispatcher:44 - with login unsuccessful: user session info response sent
