@@ -27,7 +27,7 @@ public class ReimbursementDaoImpl implements ReimbursementDao{
 	public List<Reimbursement> getAll() {
 		List<Reimbursement> reimbursementList = new ArrayList<>();
 		try(Connection con = dbCon.getDBConnection()){
-			String sql = "select * from reimbursements r left outer join reimbursement_status s on r.status_id = s.id left outer join reimbursement_type t on r.type_id = t.id order by s.id";
+			String sql = "select * from reimbursements r left outer join reimbursement_status s on r.status_id = s.id left outer join reimbursement_type t on r.type_id = t.id order by r.submitted desc";
 			Statement s = con.createStatement();
 			ResultSet rs = s.executeQuery(sql);
 			while(rs.next()) {

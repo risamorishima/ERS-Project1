@@ -71,11 +71,9 @@ public class UserController {
 		}
 		
 		HttpSession session = req.getSession(false);
-		if (session != null) {
-			userInfo = new HashMap<>();
-		    session.invalidate();
-			log.info("session invalidated");
-		}
+		userInfo = new HashMap<>();
+		session.invalidate();
+		log.info("session invalidated");
 		log.info("logged out");
 		return "html/index.html";
 	}

@@ -36,12 +36,15 @@ public class JSONDispatcher {
 				}
 				break;
 			case "/proj1/wrongcreds.json":
-				if(UserController.userInfo.get("wrongcreds") == null) {
-					req.getSession().setAttribute("wrongcreds", false);
-					UserController.userInfo.put("wrongcreds", false);
+				HttpSession session1 = req.getSession(false);
+				if(session1 != null) {
+					if(UserController.userInfo.get("wrongcreds") == null) {
+						session1.setAttribute("wrongcreds", false);
+						UserController.userInfo.put("wrongcreds", false);
+					}
+					res.getWriter().write(new ObjectMapper().writeValueAsString(UserController.userInfo));
+					log.info("with login unsuccessful: user session info response sent");
 				}
-				res.getWriter().write(new ObjectMapper().writeValueAsString(UserController.userInfo));
-				log.info("with login unsuccessful: user session info response sent");
 				break;
 			default:
 				System.out.println("in JSON default");

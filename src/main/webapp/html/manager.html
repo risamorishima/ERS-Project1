@@ -10,8 +10,11 @@
     <title>Manager Home</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">ERS Application</a>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between" style="background-color: #DCF9E6;">
+      <a class="navbar-brand" href="#">
+        <img src="../img/moneylogo.png" alt='moneylogo.png' id="logo-navbar">
+        <span id="name-navbar">ERS Application</span>
+      </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,11 +22,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" data-toggle="modal" data-target="#accountModal">Account</a>
+              <a class="nav-component nav-link" data-toggle="modal" data-target="#accountModal">Account</a>
             </li>
           </ul>
           <form method="post" action="/proj1/logout.view" id="logout" class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Logout</button>
           </form>
         </div>
     </nav>
@@ -38,11 +41,11 @@
             </button>
           </div>
           <div class="modal-body">
-            <div id="name"></div>
+            <div id="name">Name:</div>
             <div id="username">Username: </div>
             <div>
               Password: 
-              <img src="img/password.png" id="showPassword" alt="show password"/>
+              <img src="../img/password.png" id="showPassword" alt="password.png"/>
               <span id="password" display="none"></span>
             </div>
             <div id="email">Email: </div>
@@ -51,12 +54,65 @@
       </div>
     </div>
 
-    <div id = "welcomeHeading"></div>
-    <div id = "pastTickets">
-        Reimbursements:
-        <div id = "pendingTickets">Pending Tickets:</div>
-        <div id = "approvedTickets">Approved Tickets:</div>
-        <div id = "deniedTickets">Denied Tickets:</div>
+    <div class="container">
+      <div class="row">
+        <div class="col tickets-col">
+          <h1 id = "welcomeHeading">Welcome</h1>
+          <div id = "pastTickets"> 
+            <h2 class="mb-5">Reimbursements</h2>
+            <div id = "pendingTickets">
+              <div id="pending-container" class="container">
+                <div class="header">
+                  <img src="../img/pending.png" alt="pending.png" class="logo-tickets"/>
+                  Pending Tickets:
+                  <div class="row">
+                    <div class="col">Employee</div>
+                    <div class="col">Date</div>
+                    <div class="col">Description</div>
+                    <div class="col">Amount</div>
+                    <div class="col">Type</div>
+                    <div class="col">Status</div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id = "approvedTickets">
+              <div id="approved-container" class="container">
+                <div class="header">
+                  <img src="../img/approve.png" alt="approve.png" class="logo-tickets"/>
+                  Approved Tickets:
+                  <div class="row">
+                    <div class="col">Employee</div>
+                    <div class="col">Date</div>
+                    <div class="col">Description</div>
+                    <div class="col">Amount</div>
+                    <div class="col">Type</div>
+                    <div class="col">Status</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id = "deniedTickets">
+              <div id="denied-container" class="container">
+                <div class="header">
+                  <img src="../img/deny.png" alt="deny.png" class="logo-tickets"/>
+                  Denied Tickets:
+                  <div class="row">
+                    <div class="col">Employee</div>
+                    <div class="col">Date</div>
+                    <div class="col">Description</div>
+                    <div class="col">Amount</div>
+                    <div class="col">Type</div>
+                    <div class="col">Status</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="modal hide fade" id="validateModal" data-keyboard="false" data-backdrop="static">

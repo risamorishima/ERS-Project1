@@ -128,22 +128,25 @@ public class ReimbursementController {
 	}
 	
 	public void getSessionTicket(HttpServletRequest req, HttpServletResponse res) throws JsonProcessingException, IOException{
-		User user = (User) req.getSession().getAttribute("currentUser");
-		ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
-		ReimbursementService rServ = new ReimbursementService(rDao);
-		List<Reimbursement> tickets;
-		if(user.getUserRole().getRole().equals("Employee"))
-			tickets = rServ.getAllByUserId(user.getId());	
-		else {
-			UserDaoImpl uDao = new UserDaoImpl(con);
-			UserService uServ = new UserService(uDao);
-			List<User> employees = uServ.getAllEmployee();
-			req.getSession().setAttribute("employees", employees);
-			UserController.userInfo.put("employees", employees);
-			tickets = rDao.getAll();
+		HttpSession session = req.getSession(false);
+		if(session != null) {
+			User user = (User) req.getSession().getAttribute("currentUser");
+			ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
+			ReimbursementService rServ = new ReimbursementService(rDao);
+			List<Reimbursement> tickets;
+			if(user.getUserRole().getRole().equals("Employee"))
+				tickets = rServ.getAllByUserId(user.getId());	
+			else {
+				UserDaoImpl uDao = new UserDaoImpl(con);
+				UserService uServ = new UserService(uDao);
+				List<User> employees = uServ.getAllEmployee();
+				req.getSession().setAttribute("employees", employees);
+				UserController.userInfo.put("employees", employees);
+				tickets = rDao.getAll();
+			}
+			req.getSession().setAttribute("tickets", tickets);
+			UserController.userInfo.put("tickets", tickets);
+			log.info("ticket session requested");
 		}
-		req.getSession().setAttribute("tickets", tickets);
-		UserController.userInfo.put("tickets", tickets);
-		log.info("ticket session requested");
 	}
 }

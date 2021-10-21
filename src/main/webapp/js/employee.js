@@ -1,33 +1,62 @@
 window.onload = function(){
+    imageLoad();
     getSessionUser();
 }
 
 function getSessionUser(){
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
+        console.log(xhttp.responseText);
         if(xhttp.readyState == 4 && xhttp.status == 200){
             if(!xhttp.responseText){
                 $('#validateModal').modal('show');
             }else{
                 let userInfo = JSON.parse(xhttp.responseText);
-                console.log(userInfo);
                 document.getElementById("welcomeHeading").innerHTML=`Welcome ${userInfo.user.firstName} ${userInfo.user.lastName}`;
-                document.getElementById("name").innerHTML=`${userInfo.user.firstName} ${userInfo.user.lastName}`;
+                document.getElementById("name").innerHTML=`Name: ${userInfo.user.firstName} ${userInfo.user.lastName}`;
                 document.getElementById("username").innerHTML=`Username: ${userInfo.user.username}`;
                 document.getElementById("password").innerHTML=userInfo.user.password;
                 document.getElementById("password").style.display="none";
                 document.getElementById("email").innerHTML=`Email: ${userInfo.user.email}`;
                 for (ticket of userInfo.tickets) {
                     let newTicketDiv = document.createElement("div");
-                    newTicketDiv.className = "ticketDiv";
+                    newTicketDiv.className = "row ticketDiv";
+
                     let date = new Date(ticket.submitDate);
-                    let divText = document.createTextNode(`${date.toDateString()}: ${ticket.description} $${ticket.amount} For: ${ticket.type.type} Status:${ticket.status.status}`);
-                    newTicketDiv.appendChild(divText);
+                    let col = document.createElement("div");
+                    col.className ="col";
+                    let colText = document.createTextNode(date.toDateString());
+                    col.appendChild(colText);
+                    newTicketDiv.appendChild(col);
+
+                    col = document.createElement("div");
+                    col.className ="col";
+                    colText = document.createTextNode(ticket.description);
+                    col.appendChild(colText);
+                    newTicketDiv.appendChild(col);
+
+                    col = document.createElement("div");
+                    col.className ="col";
+                    colText = document.createTextNode(`$${ticket.amount}`);
+                    col.appendChild(colText);
+                    newTicketDiv.appendChild(col);
+
+                    col = document.createElement("div");
+                    col.className ="col";
+                    colText = document.createTextNode(ticket.type.type);
+                    col.appendChild(colText);
+                    newTicketDiv.appendChild(col);
+
+                    col = document.createElement("div");
+                    col.className ="col";
+                    colText = document.createTextNode(ticket.status.status);
+                    col.appendChild(colText);
+                    newTicketDiv.appendChild(col);
 
                     if(ticket.status.status === "Pending"){
                         let updateButton = document.createElement("button");
                         updateButton.id = "updateButton";
-                        updateButton.className="btn btn-primary";
+                        updateButton.className="btn btn-primary btn-sm";
                         updateButton.setAttribute("data-toggle", "modal")
                         updateButton.setAttribute("data-target", "#updateTicketModal");
                         updateButton.setAttribute("value", ticket.id);
@@ -36,12 +65,16 @@ function getSessionUser(){
                         });
                         let buttonText = document.createTextNode("Edit Ticket");
                         updateButton.appendChild(buttonText);
-                        newTicketDiv.appendChild(updateButton);
-                        document.getElementById("pendingTickets").append(newTicketDiv);
+
+                        col = document.createElement("div");
+                        col.className ="col";
+                        col.appendChild(updateButton);
+                        newTicketDiv.appendChild(col);
+                        document.getElementById("pending-container").append(newTicketDiv);
                     }else if(ticket.status.status === "Approved"){
-                        document.getElementById("approvedTickets").append(newTicketDiv);
+                        document.getElementById("approved-container").append(newTicketDiv);
                     }else{
-                        document.getElementById("deniedTickets").append(newTicketDiv);
+                        document.getElementById("denied-container").append(newTicketDiv);
                     }
                 }
 
@@ -81,3 +114,13 @@ function getTickets(){
 
 let submitTicket = document.getElementById("ticketSubmit");
 submitTicket.addEventListener("click", getSessionUser);
+
+function imageLoad(){
+    let images = document.querySelectorAll('img');
+    images.forEach(function(image){
+        let isLoaded = image.complete && image.naturalWidth !== 0;
+        if(!isLoaded){
+            image.setAttribute('src', `img/${image.getAttribute('alt')}`);
+        }
+    });
+}

@@ -19,7 +19,87 @@
   height: 1px;
   background: #eee;
 }
-
+#logo-navbar{
+    width:15%;
+    height: auto;
+}
+.navbar-brand{
+    width: 15%;
+}
+.navbar{
+    background-color: rgba(128,255,172,0.2);
+    box-shadow: 0 0 20px 0 white inset;
+}
+#name-navbar{
+    font-size: 1.5vw;
+}
+.nav-component {
+    font-size: 1.2vw;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+.nav-component:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #2C9451;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.nav-component:hover:before, .nav-component:focus:before, .nav-component:active:before {
+    left: 0;
+    right: 0;
+}
 #showPassword {
     width: 5%;
+}
+
+#welcomeHeading{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 2vw;
+    text-align: center;
+    border-bottom: dashed rgba(224,94,90,0.8) 3px;
+}
+.tickets-col{
+    height:100%;
+    background-color: rgba(128,255,172,0.2);
+    box-shadow: 0 0 15px 5px white;
+    border-radius: 25px;
+}
+#pastTickets{
+    padding-top: 2vh;
+}
+.logo-tickets{
+    width:5%;
+    height: auto;
+}
+.header{
+    border-bottom: dotted rgba(224,94,90,0.5) 5px;
+    margin-bottom: 2vh;
+    font-size: 1.2vw;
+}
+
+#approvedTickets, #deniedTickets{
+    margin-top: 5vh;
+}
+.ticketDiv{
+    margin-top: 3vh;
+}
+#deniedTickets{
+    padding-bottom: 10vh;
 }
