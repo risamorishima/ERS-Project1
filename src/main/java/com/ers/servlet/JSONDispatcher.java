@@ -10,6 +10,9 @@ import org.apache.log4j.Logger;
 
 import com.ers.ReimbursementController;
 import com.ers.UserController;
+import com.ers.dao.DBConnection;
+import com.ers.dao.ReimbursementDaoImpl;
+import com.ers.dao.UserDaoImpl;
 import com.ers.model.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -18,8 +21,11 @@ public class JSONDispatcher {
 	public final Logger log = Logger.getLogger(JSONDispatcher.class);
 	
 	public void process(HttpServletRequest req, HttpServletResponse res) throws IOException{
-		UserController uControl = new UserController();
-		ReimbursementController rControl = new ReimbursementController();
+		DBConnection con = new DBConnection();
+		UserDaoImpl uDao = new UserDaoImpl(con);
+		UserController uControl = new UserController(uDao);
+		ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
+		ReimbursementController rControl = new ReimbursementController(rDao);
 		switch(req.getRequestURI()) {
 			case "/proj1/getsessionuser.json":
 				HttpSession session = req.getSession(false);

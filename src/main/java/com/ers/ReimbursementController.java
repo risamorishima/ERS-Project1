@@ -24,6 +24,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 public class ReimbursementController {
 	public final Logger log = Logger.getLogger(ReimbursementController.class);
 	DBConnection con = new DBConnection();
+	ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
+	
+	public ReimbursementController(ReimbursementDaoImpl rDao) {
+		this.rDao = rDao;
+	}
 	
 	public String submitTicket(HttpServletRequest req) {
 		if(!req.getMethod().equals("POST")) {
@@ -35,8 +40,8 @@ public class ReimbursementController {
 		HttpSession session = req.getSession(false);
 		if (session != null) {
 			User user = (User) req.getSession().getAttribute("currentUser");
+			System.out.println(user);
 			if(user.getUserRole().getRole().equals("Employee")) {
-				ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
 				ReimbursementService rServ = new ReimbursementService(rDao);
 				try {
 					float amount = Float.parseFloat(req.getParameter("amount"));
@@ -71,7 +76,6 @@ public class ReimbursementController {
 		if (session != null) {
 			User user = (User) req.getSession().getAttribute("currentUser");
 			if(user.getUserRole().getRole().equals("Employee")) {
-				ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
 				ReimbursementService rServ = new ReimbursementService(rDao);
 				try {
 					Reimbursement ticket = rServ.getById(Integer.parseInt(req.getParameter("id")));
@@ -95,7 +99,6 @@ public class ReimbursementController {
 				log.info("employee "+user.getId()+" updated ticket");
 				return "html/employee.html";
 			}
-			ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
 			ReimbursementService rServ = new ReimbursementService(rDao);
 			if(req.getParameter("Approved") != null) {
 				try {
@@ -131,7 +134,6 @@ public class ReimbursementController {
 		HttpSession session = req.getSession(false);
 		if(session != null) {
 			User user = (User) req.getSession().getAttribute("currentUser");
-			ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
 			ReimbursementService rServ = new ReimbursementService(rDao);
 			List<Reimbursement> tickets;
 			if(user.getUserRole().getRole().equals("Employee"))

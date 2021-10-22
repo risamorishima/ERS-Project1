@@ -58,7 +58,7 @@ public class ReimbursementDaoImpl implements ReimbursementDao{
 	}
 	
 	@Override
-	public void insert(Reimbursement entity) {
+	public Reimbursement insert(Reimbursement entity) {
 		try(Connection con = dbCon.getDBConnection()){
 			String sql = "{? = call insert_reimbursement(?,?,?,?,?,?)}";
 			CallableStatement cs = con.prepareCall(sql);
@@ -70,14 +70,15 @@ public class ReimbursementDaoImpl implements ReimbursementDao{
 			cs.setInt(6, entity.getStatus().getId());
 			cs.setInt(7, entity.getType().getId());
 			cs.execute();
+			return entity;
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}
-		
+		return null;
 	}
 	
 	@Override
-	public void update(Reimbursement entity) {
+	public Reimbursement update(Reimbursement entity) {
 		try(Connection con = dbCon.getDBConnection()){
 			String sql = "{? = call update_reimbursement(?,?,?,?,?,?,?)}";
 			CallableStatement cs = con.prepareCall(sql);
@@ -90,10 +91,11 @@ public class ReimbursementDaoImpl implements ReimbursementDao{
 			cs.setInt(7, entity.getStatus().getId());
 			cs.setInt(8, entity.getType().getId());
 			cs.execute();
+			return entity;
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}
-		
+		return null;
 	}
 
 	@Override

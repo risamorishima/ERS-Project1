@@ -55,17 +55,17 @@ public class AES {
         return null;
     }
     
-    public static void main(String args[]) throws NoSuchAlgorithmException
-    {
-        final String SECRETKEY = "somesecretkey";
-
-        String input = "anotherpassword";
-
-        AES aes = new AES();
-        String encrypted = aes.encrypt(input, SECRETKEY);
-        String decrypted = aes.decrypt(encrypted, SECRETKEY);
-
-        System.out.println(encrypted);
-        System.out.println(decrypted);
-    }
+//    public static void main(String args[]) throws NoSuchAlgorithmException
+//    {
+//        final String SECRETKEY = "somesecretkey";
+//
+//        String input = "anotherpassword";
+//
+//        AES aes = new AES();
+//        String encrypted = aes.encrypt(input, SECRETKEY);
+//        String decrypted = aes.decrypt(encrypted, SECRETKEY);
+//
+//        System.out.println(encrypted);
+//        System.out.println(decrypted);
+//    }
 }

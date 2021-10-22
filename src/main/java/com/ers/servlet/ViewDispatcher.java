@@ -8,6 +8,7 @@ import org.apache.log4j.Logger;
 import com.ers.ReimbursementController;
 import com.ers.UserController;
 import com.ers.dao.DBConnection;
+import com.ers.dao.ReimbursementDaoImpl;
 import com.ers.dao.UserDaoImpl;
 import com.ers.model.User;
 import com.ers.service.UserService;
@@ -17,8 +18,11 @@ public class ViewDispatcher {
 	public final Logger log = Logger.getLogger(ViewDispatcher.class);
 	
 	public String process(HttpServletRequest req) {
-		UserController uControl = new UserController();
-		ReimbursementController rControl = new ReimbursementController();
+		DBConnection con = new DBConnection();
+		UserDaoImpl uDao = new UserDaoImpl(con);
+		UserController uControl = new UserController(uDao);
+		ReimbursementDaoImpl rDao = new ReimbursementDaoImpl(con);
+		ReimbursementController rControl = new ReimbursementController(rDao);
 		switch(req.getRequestURI()) {
 			case "/proj1/login.view":
 				HttpSession session = req.getSession(false);

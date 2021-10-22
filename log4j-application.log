@@ -732,3 +732,1057 @@
 2021-10-20 21:13:11 INFO  JSONDispatcher:34 - with login successful: user session info response sent
 2021-10-20 21:13:21 INFO  UserController:76 - session invalidated
 2021-10-20 21:13:21 INFO  UserController:77 - logged out
+2021-10-21 15:09:26 INFO  AES:50 - decryption occured
+2021-10-21 15:09:26 INFO  UserController:50 - employee 1 logged in
+2021-10-21 15:09:42 INFO  AES:50 - decryption occured
+2021-10-21 15:09:42 INFO  UserController:50 - employee 1 logged in
+2021-10-21 15:09:42 INFO  UserController:84 - user session requested
+2021-10-21 15:09:42 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 15:09:43 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-21 15:11:27 INFO  UserController:84 - user session requested
+2021-10-21 15:11:47 INFO  AES:50 - decryption occured
+2021-10-21 15:11:47 INFO  UserController:50 - employee 1 logged in
+2021-10-21 15:11:47 INFO  UserController:84 - user session requested
+2021-10-21 15:11:47 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 15:11:48 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-21 15:13:24 INFO  AES:50 - decryption occured
+2021-10-21 15:13:24 INFO  UserController:50 - employee 1 logged in
+2021-10-21 15:13:24 INFO  UserController:84 - user session requested
+2021-10-21 15:13:24 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 15:13:24 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-21 15:13:34 INFO  UserController:84 - user session requested
+2021-10-21 15:13:34 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 15:13:34 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-21 15:13:35 INFO  ReimbursementController:53 - employee 1 submitted ticket
+2021-10-21 15:13:35 INFO  UserController:84 - user session requested
+2021-10-21 15:13:35 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 15:13:35 INFO  JSONDispatcher:34 - with login successful: user session info response sent
+2021-10-21 15:14:05 INFO  UserController:76 - session invalidated
+2021-10-21 15:14:05 INFO  UserController:77 - logged out
+2021-10-21 15:54:15 INFO  AES:50 - decryption occured
+2021-10-21 15:55:22 INFO  AES:50 - decryption occured
+2021-10-21 15:55:22 INFO  AES:50 - decryption occured
+2021-10-21 15:58:42 INFO  AES:50 - decryption occured
+2021-10-21 15:58:42 INFO  AES:50 - decryption occured
+2021-10-21 16:02:28 INFO  AES:50 - decryption occured
+2021-10-21 16:02:28 INFO  AES:50 - decryption occured
+2021-10-21 16:02:28 INFO  AES:50 - decryption occured
+2021-10-21 16:02:28 INFO  AES:50 - decryption occured
+2021-10-21 16:02:28 INFO  AES:50 - decryption occured
+2021-10-21 16:04:23 INFO  AES:50 - decryption occured
+2021-10-21 16:04:23 INFO  AES:50 - decryption occured
+2021-10-21 16:04:23 INFO  AES:50 - decryption occured
+2021-10-21 16:04:23 INFO  AES:50 - decryption occured
+2021-10-21 16:04:23 INFO  AES:50 - decryption occured
+2021-10-21 16:05:16 INFO  AES:50 - decryption occured
+2021-10-21 16:05:16 INFO  AES:50 - decryption occured
+2021-10-21 16:05:16 INFO  AES:50 - decryption occured
+2021-10-21 16:05:16 INFO  AES:50 - decryption occured
+2021-10-21 16:05:16 INFO  AES:50 - decryption occured
+2021-10-21 16:07:11 INFO  AES:50 - decryption occured
+2021-10-21 16:07:11 INFO  AES:50 - decryption occured
+2021-10-21 16:07:11 INFO  AES:50 - decryption occured
+2021-10-21 16:07:11 INFO  AES:50 - decryption occured
+2021-10-21 16:07:11 INFO  AES:50 - decryption occured
+2021-10-21 16:07:42 INFO  AES:50 - decryption occured
+2021-10-21 16:07:42 INFO  AES:50 - decryption occured
+2021-10-21 16:16:48 INFO  AES:50 - decryption occured
+2021-10-21 16:16:48 INFO  AES:50 - decryption occured
+2021-10-21 16:19:14 INFO  AES:50 - decryption occured
+2021-10-21 16:19:14 INFO  AES:50 - decryption occured
+2021-10-21 16:19:14 INFO  AES:50 - decryption occured
+2021-10-21 16:19:14 INFO  AES:50 - decryption occured
+2021-10-21 16:19:14 INFO  AES:50 - decryption occured
+2021-10-21 16:19:35 INFO  AES:50 - decryption occured
+2021-10-21 16:19:35 INFO  AES:50 - decryption occured
+2021-10-21 16:19:35 INFO  AES:50 - decryption occured
+2021-10-21 16:19:35 INFO  AES:50 - decryption occured
+2021-10-21 16:19:35 INFO  AES:50 - decryption occured
+2021-10-21 16:20:53 INFO  AES:50 - decryption occured
+2021-10-21 16:20:53 INFO  AES:50 - decryption occured
+2021-10-21 16:20:53 INFO  AES:50 - decryption occured
+2021-10-21 16:20:53 INFO  AES:50 - decryption occured
+2021-10-21 16:20:53 INFO  AES:50 - decryption occured
+2021-10-21 16:25:53 INFO  AES:50 - decryption occured
+2021-10-21 16:25:53 INFO  AES:50 - decryption occured
+2021-10-21 16:25:53 INFO  AES:50 - decryption occured
+2021-10-21 16:25:53 INFO  AES:50 - decryption occured
+2021-10-21 16:25:53 INFO  AES:50 - decryption occured
+2021-10-21 16:26:08 INFO  AES:50 - decryption occured
+2021-10-21 16:26:08 INFO  AES:50 - decryption occured
+2021-10-21 16:26:08 INFO  AES:50 - decryption occured
+2021-10-21 16:26:08 INFO  AES:50 - decryption occured
+2021-10-21 16:26:08 INFO  AES:50 - decryption occured
+2021-10-21 16:36:55 INFO  AES:50 - decryption occured
+2021-10-21 16:36:55 INFO  AES:50 - decryption occured
+2021-10-21 16:36:55 INFO  AES:50 - decryption occured
+2021-10-21 16:36:55 INFO  AES:50 - decryption occured
+2021-10-21 16:36:55 INFO  AES:50 - decryption occured
+2021-10-21 16:37:03 INFO  AES:50 - decryption occured
+2021-10-21 16:37:03 INFO  AES:50 - decryption occured
+2021-10-21 16:37:03 INFO  AES:50 - decryption occured
+2021-10-21 16:37:03 INFO  AES:50 - decryption occured
+2021-10-21 16:37:03 INFO  AES:50 - decryption occured
+2021-10-21 16:47:32 INFO  AES:50 - decryption occured
+2021-10-21 16:47:32 INFO  AES:50 - decryption occured
+2021-10-21 16:48:33 INFO  AES:50 - decryption occured
+2021-10-21 16:48:33 INFO  AES:50 - decryption occured
+2021-10-21 16:51:38 INFO  AES:50 - decryption occured
+2021-10-21 16:51:38 INFO  AES:50 - decryption occured
+2021-10-21 16:54:28 INFO  AES:50 - decryption occured
+2021-10-21 16:54:28 INFO  AES:50 - decryption occured
+2021-10-21 16:55:03 INFO  AES:50 - decryption occured
+2021-10-21 16:55:03 INFO  AES:50 - decryption occured
+2021-10-21 16:55:30 INFO  AES:50 - decryption occured
+2021-10-21 16:55:30 INFO  AES:50 - decryption occured
+2021-10-21 16:56:53 INFO  AES:50 - decryption occured
+2021-10-21 16:56:53 INFO  AES:50 - decryption occured
+2021-10-21 16:57:13 INFO  AES:50 - decryption occured
+2021-10-21 16:57:13 INFO  AES:50 - decryption occured
+2021-10-21 16:58:11 INFO  AES:50 - decryption occured
+2021-10-21 16:58:11 INFO  AES:50 - decryption occured
+2021-10-21 17:00:00 INFO  AES:50 - decryption occured
+2021-10-21 17:00:00 INFO  AES:50 - decryption occured
+2021-10-21 17:00:16 INFO  AES:50 - decryption occured
+2021-10-21 17:00:16 INFO  AES:50 - decryption occured
+2021-10-21 17:01:08 INFO  AES:50 - decryption occured
+2021-10-21 17:01:08 INFO  AES:50 - decryption occured
+2021-10-21 17:01:40 INFO  AES:50 - decryption occured
+2021-10-21 17:01:40 INFO  AES:50 - decryption occured
+2021-10-21 17:03:07 INFO  AES:50 - decryption occured
+2021-10-21 17:03:07 INFO  AES:50 - decryption occured
+2021-10-21 17:03:36 INFO  AES:50 - decryption occured
+2021-10-21 17:03:36 INFO  AES:50 - decryption occured
+2021-10-21 17:03:56 INFO  AES:50 - decryption occured
+2021-10-21 17:03:56 INFO  AES:50 - decryption occured
+2021-10-21 17:04:50 INFO  AES:50 - decryption occured
+2021-10-21 17:04:50 INFO  AES:50 - decryption occured
+2021-10-21 17:06:03 INFO  AES:50 - decryption occured
+2021-10-21 17:06:03 INFO  AES:50 - decryption occured
+2021-10-21 17:08:01 INFO  AES:50 - decryption occured
+2021-10-21 17:08:01 INFO  AES:50 - decryption occured
+2021-10-21 17:08:18 INFO  AES:50 - decryption occured
+2021-10-21 17:08:18 INFO  AES:50 - decryption occured
+2021-10-21 17:08:18 INFO  AES:50 - decryption occured
+2021-10-21 17:08:37 INFO  AES:50 - decryption occured
+2021-10-21 17:08:37 INFO  AES:50 - decryption occured
+2021-10-21 17:08:46 INFO  AES:50 - decryption occured
+2021-10-21 17:08:46 INFO  AES:50 - decryption occured
+2021-10-21 17:08:46 INFO  AES:50 - decryption occured
+2021-10-21 17:08:46 INFO  AES:50 - decryption occured
+2021-10-21 17:08:46 INFO  AES:50 - decryption occured
+2021-10-21 17:08:54 INFO  AES:50 - decryption occured
+2021-10-21 17:08:54 INFO  AES:50 - decryption occured
+2021-10-21 17:08:54 INFO  AES:50 - decryption occured
+2021-10-21 17:08:54 INFO  AES:50 - decryption occured
+2021-10-21 17:08:54 INFO  AES:50 - decryption occured
+2021-10-21 17:09:20 INFO  AES:50 - decryption occured
+2021-10-21 17:09:20 INFO  AES:50 - decryption occured
+2021-10-21 17:11:03 INFO  AES:50 - decryption occured
+2021-10-21 17:11:03 INFO  AES:50 - decryption occured
+2021-10-21 17:11:03 INFO  AES:50 - decryption occured
+2021-10-21 17:11:03 INFO  AES:50 - decryption occured
+2021-10-21 17:11:03 INFO  AES:50 - decryption occured
+2021-10-21 17:11:40 INFO  AES:50 - decryption occured
+2021-10-21 17:11:40 INFO  AES:50 - decryption occured
+2021-10-21 17:11:40 INFO  AES:50 - decryption occured
+2021-10-21 17:11:40 INFO  AES:50 - decryption occured
+2021-10-21 17:11:40 INFO  AES:50 - decryption occured
+2021-10-21 17:14:40 INFO  AES:50 - decryption occured
+2021-10-21 17:14:40 INFO  AES:50 - decryption occured
+2021-10-21 17:14:40 INFO  AES:50 - decryption occured
+2021-10-21 17:14:40 INFO  AES:50 - decryption occured
+2021-10-21 17:14:40 INFO  AES:50 - decryption occured
+2021-10-21 17:14:40 INFO  AES:50 - decryption occured
+2021-10-21 17:26:26 INFO  AES:50 - decryption occured
+2021-10-21 17:26:26 INFO  AES:50 - decryption occured
+2021-10-21 17:26:26 INFO  AES:50 - decryption occured
+2021-10-21 17:26:26 INFO  AES:50 - decryption occured
+2021-10-21 17:26:26 INFO  AES:50 - decryption occured
+2021-10-21 17:26:26 INFO  AES:50 - decryption occured
+2021-10-21 17:28:28 INFO  AES:50 - decryption occured
+2021-10-21 17:28:28 INFO  AES:50 - decryption occured
+2021-10-21 17:28:28 INFO  AES:50 - decryption occured
+2021-10-21 17:28:28 INFO  AES:50 - decryption occured
+2021-10-21 17:28:28 INFO  AES:50 - decryption occured
+2021-10-21 17:28:28 INFO  AES:50 - decryption occured
+2021-10-21 17:28:44 INFO  AES:50 - decryption occured
+2021-10-21 17:28:44 INFO  AES:50 - decryption occured
+2021-10-21 17:28:44 ERROR AES:53 - unable to decrypt
+2021-10-21 17:28:44 INFO  AES:50 - decryption occured
+2021-10-21 17:28:44 INFO  AES:50 - decryption occured
+2021-10-21 17:28:44 INFO  AES:50 - decryption occured
+2021-10-21 17:28:44 INFO  AES:50 - decryption occured
+2021-10-21 17:28:44 INFO  AES:50 - decryption occured
+2021-10-21 17:29:08 INFO  AES:50 - decryption occured
+2021-10-21 17:29:08 INFO  AES:50 - decryption occured
+2021-10-21 17:29:08 ERROR AES:53 - unable to decrypt
+2021-10-21 17:29:08 INFO  AES:50 - decryption occured
+2021-10-21 17:29:08 INFO  AES:50 - decryption occured
+2021-10-21 17:29:08 INFO  AES:50 - decryption occured
+2021-10-21 17:29:08 INFO  AES:50 - decryption occured
+2021-10-21 17:29:08 INFO  AES:50 - decryption occured
+2021-10-21 17:33:02 INFO  AES:50 - decryption occured
+2021-10-21 17:33:02 INFO  AES:50 - decryption occured
+2021-10-21 17:33:02 ERROR AES:53 - unable to decrypt
+2021-10-21 17:33:02 INFO  AES:50 - decryption occured
+2021-10-21 17:33:02 INFO  AES:50 - decryption occured
+2021-10-21 17:33:02 INFO  AES:50 - decryption occured
+2021-10-21 17:33:02 INFO  AES:50 - decryption occured
+2021-10-21 17:33:02 INFO  AES:50 - decryption occured
+2021-10-21 17:33:24 INFO  AES:50 - decryption occured
+2021-10-21 17:33:24 INFO  AES:50 - decryption occured
+2021-10-21 17:33:24 ERROR AES:53 - unable to decrypt
+2021-10-21 17:33:24 INFO  AES:50 - decryption occured
+2021-10-21 17:33:24 INFO  AES:50 - decryption occured
+2021-10-21 17:33:24 INFO  AES:50 - decryption occured
+2021-10-21 17:33:24 INFO  AES:50 - decryption occured
+2021-10-21 17:33:24 INFO  AES:50 - decryption occured
+2021-10-21 17:33:38 INFO  AES:50 - decryption occured
+2021-10-21 17:33:38 INFO  AES:50 - decryption occured
+2021-10-21 17:33:38 ERROR AES:53 - unable to decrypt
+2021-10-21 17:33:38 INFO  AES:50 - decryption occured
+2021-10-21 17:33:38 INFO  AES:50 - decryption occured
+2021-10-21 17:33:38 INFO  AES:50 - decryption occured
+2021-10-21 17:33:38 INFO  AES:50 - decryption occured
+2021-10-21 17:33:38 INFO  AES:50 - decryption occured
+2021-10-21 17:41:39 INFO  AES:50 - decryption occured
+2021-10-21 17:41:39 ERROR AES:53 - unable to decrypt
+2021-10-21 17:41:39 INFO  AES:50 - decryption occured
+2021-10-21 17:41:39 ERROR AES:53 - unable to decrypt
+2021-10-21 17:41:39 INFO  AES:50 - decryption occured
+2021-10-21 17:41:39 INFO  AES:50 - decryption occured
+2021-10-21 17:41:39 INFO  AES:50 - decryption occured
+2021-10-21 17:41:39 INFO  AES:50 - decryption occured
+2021-10-21 17:41:39 INFO  AES:50 - decryption occured
+2021-10-21 17:41:54 INFO  AES:50 - decryption occured
+2021-10-21 17:41:54 ERROR AES:53 - unable to decrypt
+2021-10-21 17:41:54 INFO  AES:50 - decryption occured
+2021-10-21 17:41:54 INFO  AES:50 - decryption occured
+2021-10-21 17:41:54 INFO  AES:50 - decryption occured
+2021-10-21 17:41:54 INFO  AES:50 - decryption occured
+2021-10-21 17:41:54 INFO  AES:50 - decryption occured
+2021-10-21 18:00:16 INFO  AES:50 - decryption occured
+2021-10-21 18:00:16 ERROR AES:53 - unable to decrypt
+2021-10-21 18:00:16 INFO  AES:50 - decryption occured
+2021-10-21 18:00:16 INFO  AES:50 - decryption occured
+2021-10-21 18:00:16 INFO  AES:50 - decryption occured
+2021-10-21 18:00:16 INFO  AES:50 - decryption occured
+2021-10-21 18:00:16 INFO  AES:50 - decryption occured
+2021-10-21 18:13:52 INFO  AES:50 - decryption occured
+2021-10-21 18:13:52 ERROR AES:53 - unable to decrypt
+2021-10-21 18:13:52 INFO  AES:50 - decryption occured
+2021-10-21 18:13:52 INFO  AES:50 - decryption occured
+2021-10-21 18:13:52 INFO  AES:50 - decryption occured
+2021-10-21 18:13:52 INFO  AES:50 - decryption occured
+2021-10-21 18:13:52 INFO  AES:50 - decryption occured
+2021-10-21 18:13:56 INFO  AES:50 - decryption occured
+2021-10-21 18:13:56 ERROR AES:53 - unable to decrypt
+2021-10-21 18:13:56 INFO  AES:50 - decryption occured
+2021-10-21 18:13:56 INFO  AES:50 - decryption occured
+2021-10-21 18:13:56 INFO  AES:50 - decryption occured
+2021-10-21 18:13:56 INFO  AES:50 - decryption occured
+2021-10-21 18:13:56 INFO  AES:50 - decryption occured
+2021-10-21 18:13:57 INFO  AES:50 - decryption occured
+2021-10-21 18:13:57 ERROR AES:53 - unable to decrypt
+2021-10-21 18:13:57 INFO  AES:50 - decryption occured
+2021-10-21 18:13:57 INFO  AES:50 - decryption occured
+2021-10-21 18:13:57 INFO  AES:50 - decryption occured
+2021-10-21 18:13:57 INFO  AES:50 - decryption occured
+2021-10-21 18:13:57 INFO  AES:50 - decryption occured
+2021-10-21 18:15:17 INFO  AES:50 - decryption occured
+2021-10-21 18:15:17 ERROR AES:53 - unable to decrypt
+2021-10-21 18:15:17 INFO  AES:50 - decryption occured
+2021-10-21 18:15:17 INFO  AES:50 - decryption occured
+2021-10-21 18:15:17 INFO  AES:50 - decryption occured
+2021-10-21 18:15:17 INFO  AES:50 - decryption occured
+2021-10-21 18:15:17 INFO  AES:50 - decryption occured
+2021-10-21 18:15:23 INFO  AES:50 - decryption occured
+2021-10-21 18:15:23 ERROR AES:53 - unable to decrypt
+2021-10-21 18:15:23 INFO  AES:50 - decryption occured
+2021-10-21 18:15:23 INFO  AES:50 - decryption occured
+2021-10-21 18:15:23 INFO  AES:50 - decryption occured
+2021-10-21 18:15:23 INFO  AES:50 - decryption occured
+2021-10-21 18:15:23 INFO  AES:50 - decryption occured
+2021-10-21 18:16:26 INFO  AES:50 - decryption occured
+2021-10-21 18:16:26 ERROR AES:53 - unable to decrypt
+2021-10-21 18:16:26 INFO  AES:50 - decryption occured
+2021-10-21 18:16:26 INFO  AES:50 - decryption occured
+2021-10-21 18:16:26 INFO  AES:50 - decryption occured
+2021-10-21 18:16:26 INFO  AES:50 - decryption occured
+2021-10-21 18:16:26 INFO  AES:50 - decryption occured
+2021-10-21 18:16:26 INFO  AES:50 - decryption occured
+2021-10-21 18:16:42 INFO  AES:50 - decryption occured
+2021-10-21 18:16:42 ERROR AES:53 - unable to decrypt
+2021-10-21 18:16:42 INFO  AES:50 - decryption occured
+2021-10-21 18:16:42 INFO  AES:50 - decryption occured
+2021-10-21 18:16:42 INFO  AES:50 - decryption occured
+2021-10-21 18:16:42 INFO  AES:50 - decryption occured
+2021-10-21 18:16:42 INFO  AES:50 - decryption occured
+2021-10-21 18:16:42 INFO  AES:50 - decryption occured
+2021-10-21 18:17:23 INFO  AES:50 - decryption occured
+2021-10-21 18:17:23 ERROR AES:53 - unable to decrypt
+2021-10-21 18:17:23 INFO  AES:50 - decryption occured
+2021-10-21 18:17:23 INFO  AES:50 - decryption occured
+2021-10-21 18:17:23 INFO  AES:50 - decryption occured
+2021-10-21 18:17:23 INFO  AES:50 - decryption occured
+2021-10-21 18:17:23 INFO  AES:50 - decryption occured
+2021-10-21 18:17:23 INFO  AES:50 - decryption occured
+2021-10-21 18:17:48 INFO  AES:50 - decryption occured
+2021-10-21 18:17:48 ERROR AES:53 - unable to decrypt
+2021-10-21 18:17:48 INFO  AES:50 - decryption occured
+2021-10-21 18:17:48 INFO  AES:50 - decryption occured
+2021-10-21 18:17:48 INFO  AES:50 - decryption occured
+2021-10-21 18:17:48 INFO  AES:50 - decryption occured
+2021-10-21 18:17:48 INFO  AES:50 - decryption occured
+2021-10-21 18:17:48 INFO  AES:50 - decryption occured
+2021-10-21 18:18:20 INFO  AES:50 - decryption occured
+2021-10-21 18:18:20 ERROR AES:53 - unable to decrypt
+2021-10-21 18:18:20 INFO  AES:50 - decryption occured
+2021-10-21 18:18:20 INFO  AES:50 - decryption occured
+2021-10-21 18:18:20 INFO  AES:50 - decryption occured
+2021-10-21 18:18:20 INFO  AES:50 - decryption occured
+2021-10-21 18:18:20 INFO  AES:50 - decryption occured
+2021-10-21 18:18:20 INFO  AES:50 - decryption occured
+2021-10-21 18:18:52 INFO  AES:50 - decryption occured
+2021-10-21 18:18:52 ERROR AES:53 - unable to decrypt
+2021-10-21 18:18:52 INFO  AES:50 - decryption occured
+2021-10-21 18:18:52 INFO  AES:50 - decryption occured
+2021-10-21 18:18:52 INFO  AES:50 - decryption occured
+2021-10-21 18:18:52 INFO  AES:50 - decryption occured
+2021-10-21 18:18:52 INFO  AES:50 - decryption occured
+2021-10-21 18:18:52 INFO  AES:50 - decryption occured
+2021-10-21 19:04:28 INFO  AES:50 - decryption occured
+2021-10-21 19:04:28 ERROR AES:53 - unable to decrypt
+2021-10-21 19:04:28 INFO  AES:50 - decryption occured
+2021-10-21 19:04:28 INFO  AES:50 - decryption occured
+2021-10-21 19:04:28 INFO  AES:50 - decryption occured
+2021-10-21 19:04:28 INFO  AES:50 - decryption occured
+2021-10-21 19:04:28 INFO  AES:50 - decryption occured
+2021-10-21 19:04:28 INFO  AES:50 - decryption occured
+2021-10-21 19:15:31 INFO  AES:50 - decryption occured
+2021-10-21 19:15:31 ERROR AES:53 - unable to decrypt
+2021-10-21 19:15:31 INFO  AES:50 - decryption occured
+2021-10-21 19:15:31 INFO  AES:50 - decryption occured
+2021-10-21 19:15:31 INFO  AES:50 - decryption occured
+2021-10-21 19:15:31 INFO  AES:50 - decryption occured
+2021-10-21 19:15:31 INFO  AES:50 - decryption occured
+2021-10-21 19:15:31 INFO  AES:50 - decryption occured
+2021-10-21 19:15:57 INFO  AES:50 - decryption occured
+2021-10-21 19:15:57 ERROR AES:53 - unable to decrypt
+2021-10-21 19:15:57 INFO  AES:50 - decryption occured
+2021-10-21 19:15:57 INFO  AES:50 - decryption occured
+2021-10-21 19:15:57 INFO  AES:50 - decryption occured
+2021-10-21 19:15:57 INFO  AES:50 - decryption occured
+2021-10-21 19:15:57 INFO  AES:50 - decryption occured
+2021-10-21 19:15:57 INFO  AES:50 - decryption occured
+2021-10-21 19:17:05 INFO  AES:50 - decryption occured
+2021-10-21 19:17:05 ERROR AES:53 - unable to decrypt
+2021-10-21 19:17:05 INFO  AES:50 - decryption occured
+2021-10-21 19:17:06 ERROR UserController:38 - wrong credentials inputted
+2021-10-21 19:17:06 INFO  AES:50 - decryption occured
+2021-10-21 19:17:06 INFO  AES:50 - decryption occured
+2021-10-21 19:17:06 INFO  AES:50 - decryption occured
+2021-10-21 19:17:06 INFO  AES:50 - decryption occured
+2021-10-21 19:17:06 INFO  AES:50 - decryption occured
+2021-10-21 19:18:34 INFO  AES:50 - decryption occured
+2021-10-21 19:18:34 ERROR AES:53 - unable to decrypt
+2021-10-21 19:18:34 INFO  AES:50 - decryption occured
+2021-10-21 19:18:35 ERROR UserController:38 - wrong credentials inputted
+2021-10-21 19:18:35 INFO  AES:50 - decryption occured
+2021-10-21 19:18:35 INFO  AES:50 - decryption occured
+2021-10-21 19:18:35 INFO  AES:50 - decryption occured
+2021-10-21 19:18:35 INFO  AES:50 - decryption occured
+2021-10-21 19:18:35 INFO  AES:50 - decryption occured
+2021-10-21 19:19:13 INFO  AES:50 - decryption occured
+2021-10-21 19:19:13 ERROR AES:53 - unable to decrypt
+2021-10-21 19:19:13 INFO  AES:50 - decryption occured
+2021-10-21 19:19:14 ERROR UserController:38 - wrong credentials inputted
+2021-10-21 19:19:14 INFO  AES:50 - decryption occured
+2021-10-21 19:19:14 INFO  AES:50 - decryption occured
+2021-10-21 19:19:14 INFO  AES:50 - decryption occured
+2021-10-21 19:19:14 INFO  AES:50 - decryption occured
+2021-10-21 19:19:14 INFO  AES:50 - decryption occured
+2021-10-21 19:19:32 INFO  AES:50 - decryption occured
+2021-10-21 19:19:32 ERROR AES:53 - unable to decrypt
+2021-10-21 19:19:32 INFO  AES:50 - decryption occured
+2021-10-21 19:19:33 ERROR UserController:38 - wrong credentials inputted
+2021-10-21 19:19:33 INFO  AES:50 - decryption occured
+2021-10-21 19:19:33 INFO  AES:50 - decryption occured
+2021-10-21 19:19:33 INFO  AES:50 - decryption occured
+2021-10-21 19:19:33 INFO  AES:50 - decryption occured
+2021-10-21 19:19:33 INFO  AES:50 - decryption occured
+2021-10-21 19:21:48 INFO  AES:50 - decryption occured
+2021-10-21 19:21:48 ERROR AES:53 - unable to decrypt
+2021-10-21 19:21:48 INFO  AES:50 - decryption occured
+2021-10-21 19:21:48 INFO  AES:50 - decryption occured
+2021-10-21 19:21:48 INFO  AES:50 - decryption occured
+2021-10-21 19:21:48 INFO  AES:50 - decryption occured
+2021-10-21 19:21:48 INFO  AES:50 - decryption occured
+2021-10-21 19:21:48 INFO  AES:50 - decryption occured
+2021-10-21 19:21:48 INFO  AES:50 - decryption occured
+2021-10-21 19:28:54 INFO  AES:50 - decryption occured
+2021-10-21 19:28:54 ERROR AES:53 - unable to decrypt
+2021-10-21 19:28:54 INFO  AES:50 - decryption occured
+2021-10-21 19:28:54 INFO  AES:50 - decryption occured
+2021-10-21 19:28:54 INFO  UserController:54 - employee 99 logged in
+2021-10-21 19:28:54 INFO  AES:50 - decryption occured
+2021-10-21 19:28:54 INFO  AES:50 - decryption occured
+2021-10-21 19:28:54 INFO  AES:50 - decryption occured
+2021-10-21 19:28:54 INFO  AES:50 - decryption occured
+2021-10-21 19:28:54 INFO  AES:50 - decryption occured
+2021-10-21 19:29:59 INFO  AES:50 - decryption occured
+2021-10-21 19:29:59 ERROR AES:53 - unable to decrypt
+2021-10-21 19:29:59 INFO  AES:50 - decryption occured
+2021-10-21 19:29:59 INFO  AES:50 - decryption occured
+2021-10-21 19:29:59 INFO  UserController:54 - employee 99 logged in
+2021-10-21 19:29:59 INFO  AES:50 - decryption occured
+2021-10-21 19:29:59 INFO  AES:50 - decryption occured
+2021-10-21 19:29:59 INFO  AES:50 - decryption occured
+2021-10-21 19:29:59 INFO  AES:50 - decryption occured
+2021-10-21 19:29:59 INFO  AES:50 - decryption occured
+2021-10-21 19:40:17 INFO  AES:50 - decryption occured
+2021-10-21 19:40:17 ERROR AES:53 - unable to decrypt
+2021-10-21 19:40:17 INFO  AES:50 - decryption occured
+2021-10-21 19:40:17 INFO  AES:50 - decryption occured
+2021-10-21 19:40:17 INFO  AES:50 - decryption occured
+2021-10-21 19:40:17 INFO  AES:50 - decryption occured
+2021-10-21 19:40:17 INFO  AES:50 - decryption occured
+2021-10-21 19:40:17 INFO  UserController:54 - employee 99 logged in
+2021-10-21 19:40:17 INFO  AES:50 - decryption occured
+2021-10-21 19:40:17 INFO  AES:50 - decryption occured
+2021-10-21 19:54:57 INFO  AES:50 - decryption occured
+2021-10-21 19:54:57 ERROR AES:53 - unable to decrypt
+2021-10-21 19:54:57 INFO  AES:50 - decryption occured
+2021-10-21 19:54:57 INFO  AES:50 - decryption occured
+2021-10-21 19:54:57 INFO  AES:50 - decryption occured
+2021-10-21 19:54:57 INFO  AES:50 - decryption occured
+2021-10-21 19:54:57 INFO  AES:50 - decryption occured
+2021-10-21 19:54:57 INFO  UserController:54 - employee 99 logged in
+2021-10-21 19:54:57 INFO  AES:50 - decryption occured
+2021-10-21 19:54:57 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 ERROR AES:53 - unable to decrypt
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 INFO  UserController:54 - employee 99 logged in
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 INFO  UserController:54 - employee 99 logged in
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 19:56:18 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 ERROR AES:53 - unable to decrypt
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:01:35 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 ERROR AES:53 - unable to decrypt
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:03:58 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:03:58 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 ERROR AES:53 - unable to decrypt
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:04:42 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:04:42 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 ERROR AES:53 - unable to decrypt
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:09:32 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:09:32 INFO  AES:50 - decryption occured
+2021-10-21 20:11:02 INFO  AES:50 - decryption occured
+2021-10-21 20:11:02 INFO  UserController:58 - manager 3 logged in
+2021-10-21 20:11:02 INFO  UserController:89 - user session requested
+2021-10-21 20:11:03 INFO  AES:50 - decryption occured
+2021-10-21 20:11:03 INFO  AES:50 - decryption occured
+2021-10-21 20:11:03 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 20:11:03 INFO  JSONDispatcher:38 - with login successful: user session info response sent
+2021-10-21 20:17:00 INFO  AES:50 - decryption occured
+2021-10-21 20:17:00 ERROR AES:53 - unable to decrypt
+2021-10-21 20:17:00 INFO  AES:50 - decryption occured
+2021-10-21 20:17:00 INFO  AES:50 - decryption occured
+2021-10-21 20:17:00 INFO  AES:50 - decryption occured
+2021-10-21 20:17:00 INFO  AES:50 - decryption occured
+2021-10-21 20:17:01 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:17:01 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:17:01 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:17:01 INFO  AES:50 - decryption occured
+2021-10-21 20:17:01 INFO  AES:50 - decryption occured
+2021-10-21 20:18:07 INFO  AES:50 - decryption occured
+2021-10-21 20:18:07 ERROR AES:53 - unable to decrypt
+2021-10-21 20:18:07 INFO  AES:50 - decryption occured
+2021-10-21 20:18:07 INFO  AES:50 - decryption occured
+2021-10-21 20:18:07 INFO  AES:50 - decryption occured
+2021-10-21 20:18:07 INFO  AES:50 - decryption occured
+2021-10-21 20:18:08 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:18:08 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:18:09 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:18:09 INFO  AES:50 - decryption occured
+2021-10-21 20:18:09 INFO  AES:50 - decryption occured
+2021-10-21 20:18:43 INFO  AES:50 - decryption occured
+2021-10-21 20:18:43 ERROR AES:53 - unable to decrypt
+2021-10-21 20:18:43 INFO  AES:50 - decryption occured
+2021-10-21 20:18:43 INFO  AES:50 - decryption occured
+2021-10-21 20:18:43 INFO  AES:50 - decryption occured
+2021-10-21 20:18:43 INFO  AES:50 - decryption occured
+2021-10-21 20:18:44 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:18:44 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:18:45 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:18:45 INFO  AES:50 - decryption occured
+2021-10-21 20:18:45 INFO  AES:50 - decryption occured
+2021-10-21 20:19:48 INFO  AES:50 - decryption occured
+2021-10-21 20:19:48 ERROR AES:53 - unable to decrypt
+2021-10-21 20:19:48 INFO  AES:50 - decryption occured
+2021-10-21 20:19:48 INFO  AES:50 - decryption occured
+2021-10-21 20:19:48 INFO  AES:50 - decryption occured
+2021-10-21 20:19:48 INFO  AES:50 - decryption occured
+2021-10-21 20:19:49 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:19:49 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:19:50 ERROR UserController:43 - wrong credentials inputted
+2021-10-21 20:19:50 INFO  AES:50 - decryption occured
+2021-10-21 20:19:50 INFO  AES:50 - decryption occured
+2021-10-21 20:20:08 INFO  AES:50 - decryption occured
+2021-10-21 20:20:08 ERROR AES:53 - unable to decrypt
+2021-10-21 20:20:08 INFO  AES:50 - decryption occured
+2021-10-21 20:20:08 INFO  AES:50 - decryption occured
+2021-10-21 20:20:08 INFO  AES:50 - decryption occured
+2021-10-21 20:20:08 INFO  AES:50 - decryption occured
+2021-10-21 20:20:08 INFO  AES:50 - decryption occured
+2021-10-21 20:20:08 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:20:08 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:20:08 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:20:08 INFO  AES:50 - decryption occured
+2021-10-21 20:20:08 INFO  AES:50 - decryption occured
+2021-10-21 20:20:51 INFO  AES:50 - decryption occured
+2021-10-21 20:20:51 ERROR AES:53 - unable to decrypt
+2021-10-21 20:20:51 INFO  AES:50 - decryption occured
+2021-10-21 20:20:51 INFO  AES:50 - decryption occured
+2021-10-21 20:20:51 INFO  AES:50 - decryption occured
+2021-10-21 20:20:51 INFO  AES:50 - decryption occured
+2021-10-21 20:20:51 INFO  AES:50 - decryption occured
+2021-10-21 20:20:51 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:20:51 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:20:51 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:20:51 INFO  AES:50 - decryption occured
+2021-10-21 20:20:51 INFO  AES:50 - decryption occured
+2021-10-21 20:21:46 INFO  AES:50 - decryption occured
+2021-10-21 20:21:46 ERROR AES:53 - unable to decrypt
+2021-10-21 20:21:46 INFO  AES:50 - decryption occured
+2021-10-21 20:21:46 INFO  AES:50 - decryption occured
+2021-10-21 20:21:46 INFO  AES:50 - decryption occured
+2021-10-21 20:21:46 INFO  AES:50 - decryption occured
+2021-10-21 20:21:46 INFO  AES:50 - decryption occured
+2021-10-21 20:21:46 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:21:46 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:21:46 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:21:46 INFO  AES:50 - decryption occured
+2021-10-21 20:21:46 INFO  AES:50 - decryption occured
+2021-10-21 20:22:48 INFO  AES:50 - decryption occured
+2021-10-21 20:22:48 ERROR AES:53 - unable to decrypt
+2021-10-21 20:22:48 INFO  AES:50 - decryption occured
+2021-10-21 20:22:48 INFO  AES:50 - decryption occured
+2021-10-21 20:22:48 INFO  AES:50 - decryption occured
+2021-10-21 20:22:48 INFO  AES:50 - decryption occured
+2021-10-21 20:22:48 INFO  AES:50 - decryption occured
+2021-10-21 20:22:48 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:22:48 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:22:48 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:22:48 INFO  AES:50 - decryption occured
+2021-10-21 20:22:48 INFO  AES:50 - decryption occured
+2021-10-21 20:23:30 INFO  AES:50 - decryption occured
+2021-10-21 20:23:30 ERROR AES:53 - unable to decrypt
+2021-10-21 20:23:30 INFO  AES:50 - decryption occured
+2021-10-21 20:23:30 INFO  AES:50 - decryption occured
+2021-10-21 20:23:30 INFO  AES:50 - decryption occured
+2021-10-21 20:23:30 INFO  AES:50 - decryption occured
+2021-10-21 20:23:30 INFO  AES:50 - decryption occured
+2021-10-21 20:23:30 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:23:30 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:23:30 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:23:30 INFO  AES:50 - decryption occured
+2021-10-21 20:23:30 INFO  AES:50 - decryption occured
+2021-10-21 20:24:34 INFO  AES:50 - decryption occured
+2021-10-21 20:24:34 ERROR AES:53 - unable to decrypt
+2021-10-21 20:24:34 INFO  AES:50 - decryption occured
+2021-10-21 20:24:34 INFO  AES:50 - decryption occured
+2021-10-21 20:24:34 INFO  AES:50 - decryption occured
+2021-10-21 20:24:34 INFO  AES:50 - decryption occured
+2021-10-21 20:24:34 INFO  AES:50 - decryption occured
+2021-10-21 20:24:34 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:24:34 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:24:34 INFO  AES:50 - decryption occured
+2021-10-21 20:24:34 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 ERROR AES:53 - unable to decrypt
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:24:53 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 ERROR AES:53 - unable to decrypt
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:00 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 ERROR AES:53 - unable to decrypt
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:25:10 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:10 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 ERROR AES:53 - unable to decrypt
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:25:23 ERROR UserController:42 - wrong credentials inputted
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:25:23 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 ERROR AES:53 - unable to decrypt
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:26:37 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 ERROR AES:53 - unable to decrypt
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:04 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 ERROR AES:53 - unable to decrypt
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:20 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 ERROR AES:53 - unable to decrypt
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  AES:50 - decryption occured
+2021-10-21 20:29:50 INFO  UserController:80 - session invalidated
+2021-10-21 20:29:50 INFO  UserController:81 - logged out
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 ERROR AES:53 - unable to decrypt
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  AES:50 - decryption occured
+2021-10-21 20:30:19 INFO  UserController:81 - session invalidated
+2021-10-21 20:30:19 INFO  UserController:82 - logged out
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 ERROR AES:53 - unable to decrypt
+2021-10-21 20:35:25 INFO  UserController:80 - session invalidated
+2021-10-21 20:35:25 INFO  UserController:81 - logged out
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 INFO  UserController:88 - user session requested
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:35:25 INFO  UserController:80 - session invalidated
+2021-10-21 20:35:25 INFO  UserController:81 - logged out
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:35:25 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 ERROR AES:53 - unable to decrypt
+2021-10-21 20:38:29 INFO  UserController:80 - session invalidated
+2021-10-21 20:38:29 INFO  UserController:81 - logged out
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  UserController:89 - user session requested
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:38:29 INFO  UserController:80 - session invalidated
+2021-10-21 20:38:29 INFO  UserController:81 - logged out
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:29 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 ERROR AES:53 - unable to decrypt
+2021-10-21 20:38:56 INFO  UserController:80 - session invalidated
+2021-10-21 20:38:56 INFO  UserController:81 - logged out
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  UserController:89 - user session requested
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:38:56 INFO  UserController:80 - session invalidated
+2021-10-21 20:38:56 INFO  UserController:81 - logged out
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:38:56 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 ERROR AES:53 - unable to decrypt
+2021-10-21 20:39:03 INFO  UserController:80 - session invalidated
+2021-10-21 20:39:03 INFO  UserController:81 - logged out
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  UserController:89 - user session requested
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:39:03 INFO  UserController:80 - session invalidated
+2021-10-21 20:39:03 INFO  UserController:81 - logged out
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:39:03 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 ERROR AES:53 - unable to decrypt
+2021-10-21 20:41:00 INFO  UserController:80 - session invalidated
+2021-10-21 20:41:00 INFO  UserController:81 - logged out
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  UserController:57 - manager 999 logged in
+2021-10-21 20:41:00 INFO  UserController:80 - session invalidated
+2021-10-21 20:41:00 INFO  UserController:81 - logged out
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  UserController:54 - employee 99 logged in
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 20:41:00 INFO  AES:50 - decryption occured
+2021-10-21 21:12:39 INFO  AES:50 - decryption occured
+2021-10-21 21:12:39 INFO  UserController:54 - employee 1 logged in
+2021-10-21 21:12:39 INFO  UserController:89 - user session requested
+2021-10-21 21:12:40 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:12:40 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:12:47 INFO  ReimbursementController:97 - employee 1 updated ticket
+2021-10-21 21:12:47 INFO  UserController:89 - user session requested
+2021-10-21 21:12:47 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:12:47 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:12:57 INFO  UserController:89 - user session requested
+2021-10-21 21:12:57 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:12:57 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:12:58 INFO  UserController:89 - user session requested
+2021-10-21 21:12:59 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:12:59 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:12:59 INFO  ReimbursementController:56 - employee 1 submitted ticket
+2021-10-21 21:12:59 INFO  UserController:89 - user session requested
+2021-10-21 21:13:00 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:13:00 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:13:08 INFO  UserController:80 - session invalidated
+2021-10-21 21:13:08 INFO  UserController:81 - logged out
+2021-10-21 21:13:12 INFO  AES:50 - decryption occured
+2021-10-21 21:13:12 INFO  UserController:57 - manager 3 logged in
+2021-10-21 21:13:12 INFO  UserController:89 - user session requested
+2021-10-21 21:13:13 INFO  AES:50 - decryption occured
+2021-10-21 21:13:13 INFO  AES:50 - decryption occured
+2021-10-21 21:13:13 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:13:13 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:13:23 INFO  ReimbursementController:124 - manager 3 submitted ticket
+2021-10-21 21:13:23 INFO  UserController:89 - user session requested
+2021-10-21 21:13:23 INFO  AES:50 - decryption occured
+2021-10-21 21:13:23 INFO  AES:50 - decryption occured
+2021-10-21 21:13:23 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:13:23 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:13:32 INFO  ReimbursementController:124 - manager 3 submitted ticket
+2021-10-21 21:13:32 INFO  UserController:89 - user session requested
+2021-10-21 21:13:32 INFO  AES:50 - decryption occured
+2021-10-21 21:13:32 INFO  AES:50 - decryption occured
+2021-10-21 21:13:32 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:13:32 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:13:35 INFO  UserController:80 - session invalidated
+2021-10-21 21:13:35 INFO  UserController:81 - logged out
+2021-10-21 21:13:39 INFO  AES:50 - decryption occured
+2021-10-21 21:13:39 INFO  UserController:54 - employee 1 logged in
+2021-10-21 21:13:39 INFO  UserController:89 - user session requested
+2021-10-21 21:13:39 INFO  ReimbursementController:149 - ticket session requested
+2021-10-21 21:13:39 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:14:04 INFO  UserController:80 - session invalidated
+2021-10-21 21:14:04 INFO  UserController:81 - logged out
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 ERROR AES:53 - unable to decrypt
+2021-10-21 21:24:11 INFO  UserController:80 - session invalidated
+2021-10-21 21:24:11 INFO  UserController:81 - logged out
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 INFO  UserController:54 - employee 99 logged in
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 INFO  UserController:57 - manager 999 logged in
+2021-10-21 21:24:11 INFO  UserController:80 - session invalidated
+2021-10-21 21:24:11 INFO  UserController:81 - logged out
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 INFO  UserController:54 - employee 99 logged in
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:24:11 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 ERROR AES:53 - unable to decrypt
+2021-10-21 21:35:34 INFO  UserController:80 - session invalidated
+2021-10-21 21:35:34 INFO  UserController:81 - logged out
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  UserController:54 - employee 99 logged in
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  UserController:57 - manager 999 logged in
+2021-10-21 21:35:34 INFO  UserController:80 - session invalidated
+2021-10-21 21:35:34 INFO  UserController:81 - logged out
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  UserController:54 - employee 99 logged in
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:35:34 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 ERROR AES:53 - unable to decrypt
+2021-10-21 21:36:55 INFO  UserController:80 - session invalidated
+2021-10-21 21:36:55 INFO  UserController:81 - logged out
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  UserController:54 - employee 99 logged in
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  UserController:57 - manager 999 logged in
+2021-10-21 21:36:55 INFO  UserController:80 - session invalidated
+2021-10-21 21:36:55 INFO  UserController:81 - logged out
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  UserController:54 - employee 99 logged in
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:36:55 INFO  AES:50 - decryption occured
+2021-10-21 21:38:52 INFO  AES:50 - decryption occured
+2021-10-21 21:38:52 INFO  UserController:54 - employee 1 logged in
+2021-10-21 21:38:52 INFO  UserController:89 - user session requested
+2021-10-21 21:38:52 INFO  ReimbursementController:150 - ticket session requested
+2021-10-21 21:38:52 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:39:06 INFO  UserController:89 - user session requested
+2021-10-21 21:39:06 INFO  ReimbursementController:150 - ticket session requested
+2021-10-21 21:39:06 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:39:07 INFO  ReimbursementController:57 - employee 1 submitted ticket
+2021-10-21 21:39:07 INFO  UserController:89 - user session requested
+2021-10-21 21:39:07 INFO  ReimbursementController:150 - ticket session requested
+2021-10-21 21:39:07 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:39:31 INFO  UserController:80 - session invalidated
+2021-10-21 21:39:31 INFO  UserController:81 - logged out
+2021-10-21 21:39:36 INFO  AES:50 - decryption occured
+2021-10-21 21:39:36 INFO  UserController:57 - manager 3 logged in
+2021-10-21 21:39:36 INFO  UserController:89 - user session requested
+2021-10-21 21:39:36 INFO  AES:50 - decryption occured
+2021-10-21 21:39:36 INFO  AES:50 - decryption occured
+2021-10-21 21:39:36 INFO  ReimbursementController:150 - ticket session requested
+2021-10-21 21:39:36 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:39:43 INFO  ReimbursementController:125 - manager 3 submitted ticket
+2021-10-21 21:39:43 INFO  UserController:89 - user session requested
+2021-10-21 21:39:43 INFO  AES:50 - decryption occured
+2021-10-21 21:39:43 INFO  AES:50 - decryption occured
+2021-10-21 21:39:44 INFO  ReimbursementController:150 - ticket session requested
+2021-10-21 21:39:44 INFO  JSONDispatcher:40 - with login successful: user session info response sent
+2021-10-21 21:40:37 INFO  UserController:80 - session invalidated
+2021-10-21 21:40:37 INFO  UserController:81 - logged out
+2021-10-21 22:41:54 INFO  AES:50 - decryption occured
+2021-10-21 22:41:54 ERROR AES:53 - unable to decrypt
+2021-10-21 22:41:54 INFO  UserController:80 - session invalidated
+2021-10-21 22:41:54 INFO  UserController:81 - logged out
+2021-10-21 22:41:54 INFO  AES:50 - decryption occured
+2021-10-21 22:41:54 INFO  AES:50 - decryption occured
+2021-10-21 22:41:54 INFO  AES:50 - decryption occured
+2021-10-21 22:41:54 INFO  AES:50 - decryption occured
+2021-10-21 22:41:54 INFO  AES:50 - decryption occured
+2021-10-21 22:41:54 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:41:54 INFO  AES:50 - decryption occured
+2021-10-21 22:41:54 INFO  UserController:57 - manager 999 logged in
+2021-10-21 22:41:55 INFO  UserController:80 - session invalidated
+2021-10-21 22:41:55 INFO  UserController:81 - logged out
+2021-10-21 22:41:55 INFO  AES:50 - decryption occured
+2021-10-21 22:41:55 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:41:55 INFO  AES:50 - decryption occured
+2021-10-21 22:41:55 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 ERROR AES:53 - unable to decrypt
+2021-10-21 22:42:47 INFO  UserController:80 - session invalidated
+2021-10-21 22:42:47 INFO  UserController:81 - logged out
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  UserController:57 - manager 999 logged in
+2021-10-21 22:42:47 INFO  UserController:80 - session invalidated
+2021-10-21 22:42:47 INFO  UserController:81 - logged out
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:42:47 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 ERROR AES:53 - unable to decrypt
+2021-10-21 22:43:54 INFO  UserController:80 - session invalidated
+2021-10-21 22:43:54 INFO  UserController:81 - logged out
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  UserController:57 - manager 999 logged in
+2021-10-21 22:43:54 INFO  UserController:80 - session invalidated
+2021-10-21 22:43:54 INFO  UserController:81 - logged out
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:43:54 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 ERROR AES:53 - unable to decrypt
+2021-10-21 22:44:01 INFO  UserController:80 - session invalidated
+2021-10-21 22:44:01 INFO  UserController:81 - logged out
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  UserController:57 - manager 999 logged in
+2021-10-21 22:44:01 INFO  UserController:80 - session invalidated
+2021-10-21 22:44:01 INFO  UserController:81 - logged out
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:44:01 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 ERROR AES:53 - unable to decrypt
+2021-10-21 22:50:44 INFO  UserController:80 - session invalidated
+2021-10-21 22:50:44 INFO  UserController:81 - logged out
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  UserController:57 - manager 999 logged in
+2021-10-21 22:50:44 INFO  UserController:80 - session invalidated
+2021-10-21 22:50:44 INFO  UserController:81 - logged out
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  UserController:54 - employee 99 logged in
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured
+2021-10-21 22:50:44 INFO  AES:50 - decryption occured

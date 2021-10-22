@@ -21,15 +21,19 @@ public class UserController {
     public static final String SECRETKEY = "somesecretkey";
 	public static Map<String, Object> userInfo = new HashMap<>();
 	DBConnection con = new DBConnection();
+	UserDaoImpl uDao = new UserDaoImpl(con);
     AES aes = new AES();
-	
+    
+    public UserController(UserDaoImpl uDao) {
+    	this.uDao = uDao;
+    }
+    
 	public String login(HttpServletRequest req) {
 		if(!req.getMethod().equals("POST")) {
 			log.info("login submission was not a POST method");
 			System.out.println("unsucessful login");
 			return "html/index.html";
 		}
-		UserDaoImpl uDao = new UserDaoImpl(con);
 		UserService uServ = new UserService(uDao);
 		User user = null;
 		try {
@@ -80,6 +84,7 @@ public class UserController {
 	
 	public void getSessionUser(HttpServletRequest req, HttpServletResponse res) throws JsonProcessingException, IOException {
 		User user = (User) req.getSession().getAttribute("currentUser");
+		System.out.println(req.getSession());
 		userInfo.put("user", user);
 		log.info("user session requested");
 	}
