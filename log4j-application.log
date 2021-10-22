@@ -1972,3 +1972,175 @@
 2021-10-22 03:14:32 INFO  UserController:88 - user session requested
 2021-10-22 03:14:32 INFO  ReimbursementController:151 - ticket session requested
 2021-10-22 03:14:32 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:14:52 INFO  UserController:80 - session invalidated
+2021-10-22 03:14:52 INFO  UserController:81 - logged out
+2021-10-22 03:14:56 INFO  AES:50 - decryption occured
+2021-10-22 03:14:56 INFO  UserController:54 - employee 1 logged in
+2021-10-22 03:14:56 INFO  UserController:88 - user session requested
+2021-10-22 03:14:56 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:14:57 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:30:29 INFO  UserController:80 - session invalidated
+2021-10-22 03:30:29 INFO  UserController:81 - logged out
+2021-10-22 03:37:13 INFO  AES:50 - decryption occured
+2021-10-22 03:37:13 INFO  UserController:54 - employee 5 logged in
+2021-10-22 03:37:13 INFO  UserController:88 - user session requested
+2021-10-22 03:37:13 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:37:13 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:37:51 INFO  UserController:80 - session invalidated
+2021-10-22 03:37:51 INFO  UserController:81 - logged out
+2021-10-22 03:38:13 INFO  AES:50 - decryption occured
+2021-10-22 03:38:13 INFO  UserController:54 - employee 1 logged in
+2021-10-22 03:38:13 INFO  UserController:88 - user session requested
+2021-10-22 03:38:14 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:38:14 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:38:27 INFO  UserController:88 - user session requested
+2021-10-22 03:38:27 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:38:27 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:38:28 INFO  ReimbursementController:58 - employee 1 submitted ticket
+2021-10-22 03:38:28 INFO  UserController:88 - user session requested
+2021-10-22 03:38:28 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:38:28 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:38:39 INFO  ReimbursementController:99 - employee 1 updated ticket
+2021-10-22 03:38:39 INFO  UserController:88 - user session requested
+2021-10-22 03:38:39 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:38:39 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:38:45 INFO  UserController:80 - session invalidated
+2021-10-22 03:38:45 INFO  UserController:81 - logged out
+2021-10-22 03:38:49 INFO  AES:50 - decryption occured
+2021-10-22 03:38:49 INFO  UserController:57 - manager 3 logged in
+2021-10-22 03:38:49 INFO  UserController:88 - user session requested
+2021-10-22 03:38:49 INFO  AES:50 - decryption occured
+2021-10-22 03:38:49 INFO  AES:50 - decryption occured
+2021-10-22 03:38:49 INFO  AES:50 - decryption occured
+2021-10-22 03:38:49 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:38:49 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:38:56 INFO  ReimbursementController:126 - manager 3 submitted ticket
+2021-10-22 03:38:56 INFO  UserController:88 - user session requested
+2021-10-22 03:38:56 INFO  AES:50 - decryption occured
+2021-10-22 03:38:56 INFO  AES:50 - decryption occured
+2021-10-22 03:38:56 INFO  AES:50 - decryption occured
+2021-10-22 03:38:57 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:38:57 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:39:51 INFO  UserController:80 - session invalidated
+2021-10-22 03:39:51 INFO  UserController:81 - logged out
+2021-10-22 03:39:59 INFO  AES:50 - decryption occured
+2021-10-22 03:39:59 INFO  UserController:54 - employee 1 logged in
+2021-10-22 03:39:59 INFO  UserController:88 - user session requested
+2021-10-22 03:40:00 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:40:00 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:40:05 INFO  UserController:88 - user session requested
+2021-10-22 03:40:05 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:40:05 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:40:06 INFO  ReimbursementController:58 - employee 1 submitted ticket
+2021-10-22 03:40:06 INFO  UserController:88 - user session requested
+2021-10-22 03:40:06 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:40:06 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:40:08 INFO  UserController:80 - session invalidated
+2021-10-22 03:40:08 INFO  UserController:81 - logged out
+2021-10-22 03:40:12 INFO  AES:50 - decryption occured
+2021-10-22 03:40:12 INFO  UserController:57 - manager 3 logged in
+2021-10-22 03:40:12 INFO  UserController:88 - user session requested
+2021-10-22 03:40:12 INFO  AES:50 - decryption occured
+2021-10-22 03:40:12 INFO  AES:50 - decryption occured
+2021-10-22 03:40:12 INFO  AES:50 - decryption occured
+2021-10-22 03:40:12 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:40:12 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:40:23 INFO  ReimbursementController:126 - manager 3 submitted ticket
+2021-10-22 03:40:23 INFO  UserController:88 - user session requested
+2021-10-22 03:40:23 INFO  AES:50 - decryption occured
+2021-10-22 03:40:23 INFO  AES:50 - decryption occured
+2021-10-22 03:40:23 INFO  AES:50 - decryption occured
+2021-10-22 03:40:23 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:40:23 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:42:12 INFO  UserController:80 - session invalidated
+2021-10-22 03:42:12 INFO  UserController:81 - logged out
+2021-10-22 03:42:17 INFO  AES:50 - decryption occured
+2021-10-22 03:42:17 INFO  UserController:54 - employee 5 logged in
+2021-10-22 03:42:17 INFO  UserController:88 - user session requested
+2021-10-22 03:42:18 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:42:18 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:42:37 INFO  UserController:88 - user session requested
+2021-10-22 03:42:37 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:42:37 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:42:38 INFO  ReimbursementController:58 - employee 5 submitted ticket
+2021-10-22 03:42:38 INFO  UserController:88 - user session requested
+2021-10-22 03:42:38 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:42:38 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:42:50 INFO  UserController:88 - user session requested
+2021-10-22 03:42:50 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:42:50 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:42:51 INFO  ReimbursementController:58 - employee 5 submitted ticket
+2021-10-22 03:42:51 INFO  UserController:88 - user session requested
+2021-10-22 03:42:51 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:42:51 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:43:11 INFO  UserController:88 - user session requested
+2021-10-22 03:43:12 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:43:12 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:43:12 INFO  ReimbursementController:58 - employee 5 submitted ticket
+2021-10-22 03:43:12 INFO  UserController:88 - user session requested
+2021-10-22 03:43:12 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:43:12 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:43:24 INFO  UserController:88 - user session requested
+2021-10-22 03:43:25 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:43:25 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:43:25 INFO  ReimbursementController:58 - employee 5 submitted ticket
+2021-10-22 03:43:25 INFO  UserController:88 - user session requested
+2021-10-22 03:43:25 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:43:25 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:44:44 INFO  UserController:88 - user session requested
+2021-10-22 03:44:44 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:44:44 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:44:45 INFO  ReimbursementController:58 - employee 5 submitted ticket
+2021-10-22 03:44:45 INFO  UserController:88 - user session requested
+2021-10-22 03:44:45 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:44:45 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:45:10 INFO  UserController:88 - user session requested
+2021-10-22 03:45:10 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:45:10 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:45:10 INFO  ReimbursementController:58 - employee 5 submitted ticket
+2021-10-22 03:45:11 INFO  UserController:88 - user session requested
+2021-10-22 03:45:11 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:45:11 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:45:24 INFO  UserController:80 - session invalidated
+2021-10-22 03:45:24 INFO  UserController:81 - logged out
+2021-10-22 03:45:45 INFO  AES:50 - decryption occured
+2021-10-22 03:45:45 INFO  UserController:57 - manager 3 logged in
+2021-10-22 03:45:45 INFO  UserController:88 - user session requested
+2021-10-22 03:45:46 INFO  AES:50 - decryption occured
+2021-10-22 03:45:46 INFO  AES:50 - decryption occured
+2021-10-22 03:45:46 INFO  AES:50 - decryption occured
+2021-10-22 03:45:46 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:45:46 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:45:55 INFO  ReimbursementController:126 - manager 3 submitted ticket
+2021-10-22 03:45:55 INFO  UserController:88 - user session requested
+2021-10-22 03:45:56 INFO  AES:50 - decryption occured
+2021-10-22 03:45:56 INFO  AES:50 - decryption occured
+2021-10-22 03:45:56 INFO  AES:50 - decryption occured
+2021-10-22 03:45:56 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:45:56 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:45:58 INFO  ReimbursementController:126 - manager 3 submitted ticket
+2021-10-22 03:45:58 INFO  UserController:88 - user session requested
+2021-10-22 03:45:59 INFO  AES:50 - decryption occured
+2021-10-22 03:45:59 INFO  AES:50 - decryption occured
+2021-10-22 03:45:59 INFO  AES:50 - decryption occured
+2021-10-22 03:45:59 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:45:59 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:46:16 INFO  ReimbursementController:126 - manager 3 submitted ticket
+2021-10-22 03:46:16 INFO  UserController:88 - user session requested
+2021-10-22 03:46:16 INFO  AES:50 - decryption occured
+2021-10-22 03:46:16 INFO  AES:50 - decryption occured
+2021-10-22 03:46:16 INFO  AES:50 - decryption occured
+2021-10-22 03:46:16 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:46:16 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:46:25 INFO  UserController:80 - session invalidated
+2021-10-22 03:46:25 INFO  UserController:81 - logged out
+2021-10-22 03:46:47 INFO  AES:50 - decryption occured
+2021-10-22 03:46:47 ERROR UserController:60 - wrong credentials inputted
+2021-10-22 03:46:47 INFO  JSONDispatcher:53 - with login unsuccessful: user session info response sent
+2021-10-22 03:46:57 INFO  AES:50 - decryption occured
+2021-10-22 03:46:57 INFO  UserController:54 - employee 1 logged in
+2021-10-22 03:46:57 INFO  UserController:88 - user session requested
+2021-10-22 03:46:58 INFO  ReimbursementController:151 - ticket session requested
+2021-10-22 03:46:58 INFO  JSONDispatcher:41 - with login successful: user session info response sent
+2021-10-22 03:47:01 INFO  UserController:80 - session invalidated
+2021-10-22 03:47:01 INFO  UserController:81 - logged out

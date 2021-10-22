@@ -110,8 +110,8 @@ function getSessionUser(){
             
         }
     }
-    xhttp.open("POST", "http://localhost:8080/proj1/getsessionuser.json");
-    xhttp.send("test=1");
+    xhttp.open("GET", "http://localhost:8080/proj1/getsessionuser.json");
+    xhttp.send();
 }
 
 function imageLoad(){
