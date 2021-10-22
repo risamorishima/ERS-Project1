@@ -31,6 +31,7 @@ public class JSONDispatcher {
 				HttpSession session = req.getSession(false);
 				if(session != null) {
 					System.out.println("get user session");
+					System.out.println(req.getReader().readLine());
 					res.setHeader("Cache-Control","no-cache,no-store,must-revalidate");
 					res.setHeader("Pragma","no-cache");
 					res.setDateHeader("Expires", 0);

@@ -84,7 +84,6 @@ public class UserController {
 	
 	public void getSessionUser(HttpServletRequest req, HttpServletResponse res) throws JsonProcessingException, IOException {
 		User user = (User) req.getSession().getAttribute("currentUser");
-		System.out.println(req.getSession());
 		userInfo.put("user", user);
 		log.info("user session requested");
 	}

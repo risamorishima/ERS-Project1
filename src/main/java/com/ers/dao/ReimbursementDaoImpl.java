@@ -78,7 +78,7 @@ public class ReimbursementDaoImpl implements ReimbursementDao{
 	}
 	
 	@Override
-	public Reimbursement update(Reimbursement entity) {
+	public void update(Reimbursement entity) {
 		try(Connection con = dbCon.getDBConnection()){
 			String sql = "{? = call update_reimbursement(?,?,?,?,?,?,?)}";
 			CallableStatement cs = con.prepareCall(sql);
@@ -91,11 +91,10 @@ public class ReimbursementDaoImpl implements ReimbursementDao{
 			cs.setInt(7, entity.getStatus().getId());
 			cs.setInt(8, entity.getType().getId());
 			cs.execute();
-			return entity;
+			
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}
-		return null;
 	}
 
 	@Override

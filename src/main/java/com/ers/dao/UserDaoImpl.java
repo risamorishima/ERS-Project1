@@ -72,8 +72,8 @@ public class UserDaoImpl implements UserDao{
 	}
 	
 	@Override
-	public User update(User entity) {
-		return null;
+	public void update(User entity) {
+		// TODO Auto-generated method stub
 		
 	}
 }
