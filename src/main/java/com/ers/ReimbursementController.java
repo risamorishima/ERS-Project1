@@ -40,7 +40,6 @@ public class ReimbursementController {
 		HttpSession session = req.getSession(false);
 		if (session != null) {
 			User user = (User) req.getSession().getAttribute("currentUser");
-			System.out.println(user);
 			if(user.getUserRole().getRole().equals("Employee")) {
 				ReimbursementService rServ = new ReimbursementService(rDao);
 				try {

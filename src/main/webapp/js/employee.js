@@ -6,7 +6,6 @@ window.onload = function(){
 function getSessionUser(){
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
-        console.log(xhttp.responseText);
         if(xhttp.readyState == 4 && xhttp.status == 200){
             if(!xhttp.responseText){
                 $('#validateModal').modal('show');
@@ -94,7 +93,6 @@ function getTickets(){
                 $('#validateModal').modal('show');
             }else{
                 let userInfo = JSON.parse(xhttp.responseText);
-                console.log(userInfo);
                 for (ticket of userInfo.tickets) {
                     let newTicketDiv = document.createElement("div");
                     newTicketDiv.className = "ticketDiv";
